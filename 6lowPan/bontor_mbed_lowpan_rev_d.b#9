@@ -4550,7 +4550,7 @@ design rules under a new name.</description>
 <element name="ETH-R1" library="resistor" package="R0603" value="49R9" x="93.5" y="80" rot="R270"/>
 <element name="ETH-R2" library="resistor" package="R0603" value="49R9" x="91.5" y="80" rot="R270"/>
 <element name="ETH-R6" library="resistor" package="R0603" value="49R9" x="79" y="79.75" rot="R270"/>
-<element name="SIM900-R5" library="rcl" package="R0603" value="1K" x="45.85" y="99.35"/>
+<element name="SIM900-R5" library="rcl" package="R0603" value="1K" x="49.45" y="101.65" rot="R270"/>
 <element name="ETH-R7" library="resistor" package="R0603" value="49R9" x="85" y="80.5" rot="R90"/>
 <element name="ETH-R3" library="resistor" package="R0603" value="10R" x="89" y="80.5" rot="R270"/>
 <element name="SIM900-R6" library="rcl" package="R0603" value="10K" x="41" y="104.075" rot="MR90"/>
@@ -5899,7 +5899,10 @@ design rules under a new name.</description>
 <wire x1="29.1" y1="97.725" x2="29.1" y2="92.9" width="1.6764" layer="1"/>
 <wire x1="26.2" y1="87.7" x2="29.1" y2="90.6" width="1.6764" layer="16"/>
 <wire x1="29.1" y1="90.6" x2="29.1" y2="92.9" width="1.6764" layer="16"/>
-<wire x1="41.825" y1="99.375" x2="43.4" y2="100.775" width="0" layer="19" extent="1-1"/>
+<wire x1="43.4" y1="100.775" x2="43.225" y2="100.6" width="0.5" layer="1"/>
+<wire x1="43.225" y1="100.6" x2="43.2" y2="100.6" width="0.5" layer="1"/>
+<wire x1="43.2" y1="100.6" x2="41.975" y2="99.375" width="0.8128" layer="1"/>
+<wire x1="41.975" y1="99.375" x2="41.825" y2="99.375" width="0.8128" layer="1"/>
 </signal>
 <signal name="SWD_NRST">
 <contactref element="STM_CHIP" pad="7"/>
@@ -6179,9 +6182,9 @@ design rules under a new name.</description>
 <signal name="SIM_STATUS">
 <contactref element="IC1" pad="P$66"/>
 <contactref element="SIM900-R5" pad="2"/>
-<wire x1="46.7" y1="99.35" x2="48.55" y2="99.35" width="0.4064" layer="1"/>
-<wire x1="48.55" y1="99.35" x2="49.25" y2="98.65" width="0.4064" layer="1"/>
 <wire x1="49.25" y1="98.65" x2="49.25" y2="97.275" width="0.4064" layer="1"/>
+<wire x1="49.25" y1="98.65" x2="49.25" y2="100.6" width="0.5" layer="1"/>
+<wire x1="49.25" y1="100.6" x2="49.45" y2="100.8" width="0.5" layer="1"/>
 </signal>
 <signal name="SIM_NETLIGHT">
 <contactref element="IC1" pad="P$52"/>
@@ -6195,23 +6198,24 @@ design rules under a new name.</description>
 <signal name="N$16">
 <contactref element="SIM900-LED1" pad="A"/>
 <contactref element="SIM900-R4" pad="1"/>
-<wire x1="44.7" y1="100.775" x2="46.5" y2="101.825" width="0" layer="19" extent="1-1"/>
+<wire x1="46.5" y1="101.825" x2="45.45" y2="100.775" width="0.5" layer="1"/>
+<wire x1="45.45" y1="100.775" x2="44.7" y2="100.775" width="0.5" layer="1"/>
 </signal>
 <signal name="N$17">
 <contactref element="SIM900-LED1" pad="C"/>
 <contactref element="SIM900-T1" pad="C"/>
 <via x="45.85" y="104.35" extent="1-16" drill="0.5"/>
-<wire x1="45.1" y1="104.2" x2="45.85" y2="104.35" width="0" layer="19" extent="16-16"/>
-<wire x1="46.5" y1="103.925" x2="45.85" y2="104.35" width="0" layer="19" extent="1-1"/>
+<wire x1="45.1" y1="104.2" x2="45.25" y2="104.35" width="0.5" layer="16"/>
+<wire x1="45.25" y1="104.35" x2="45.85" y2="104.35" width="0.5" layer="16"/>
+<wire x1="45.85" y1="104.35" x2="46.075" y2="104.35" width="0.5" layer="1"/>
+<wire x1="46.075" y1="104.35" x2="46.5" y2="103.925" width="0.5" layer="1"/>
 </signal>
 <signal name="N$18">
 <contactref element="SIM900-T1" pad="B"/>
 <contactref element="SIM900-R5" pad="1"/>
 <contactref element="SIM900-R6" pad="1"/>
-<wire x1="45" y1="99.35" x2="44.65" y2="99.35" width="0.4064" layer="1"/>
-<via x="44.65" y="99.35" extent="1-16" drill="0.5" shape="octagon"/>
+<wire x1="42.9" y1="103.25" x2="49.45" y2="102.5" width="0" layer="19" extent="1-16"/>
 <wire x1="41" y1="103.225" x2="42.9" y2="103.25" width="0" layer="19" extent="16-16"/>
-<wire x1="44.65" y1="99.35" x2="42.9" y2="103.25" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$19">
 <contactref element="SIM900-LED2" pad="A"/>
