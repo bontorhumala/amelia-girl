@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="Invisible" color="7" fill="1" visible="no" active="no"/>
-<layer number="61" name="stand" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="Invisible" color="7" fill="1" visible="yes" active="no"/>
+<layer number="61" name="stand" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -24666,8 +24666,6 @@ Manufacturer: Hirose&lt;br&gt;&lt;br&gt;
 <smd name="VBUS1" x="2.7" y="1.3" dx="0.4" dy="1.4" layer="1" rot="R90"/>
 <smd name="ID1" x="2.7" y="-0.65" dx="0.4" dy="1.4" layer="1" rot="R90"/>
 <smd name="GND1" x="2.7" y="-1.3" dx="0.4" dy="1.4" layer="1" rot="R90"/>
-<hole x="2.2" y="1.9" drill="0.85"/>
-<hole x="2.2" y="-1.9" drill="0.85"/>
 <rectangle x1="-0.75" y1="2.784" x2="0.75" y2="4.584" layer="31"/>
 <rectangle x1="-0.35" y1="-0.75" x2="0.35" y2="0.75" layer="31"/>
 <rectangle x1="-0.75" y1="-4.584" x2="0.75" y2="-2.784" layer="31"/>
@@ -26019,8 +26017,7 @@ author:geekonek@gmail.com</description>
 <pad name="GPIO12" x="18.4" y="1" drill="0.5" diameter="0.8128" shape="offset" rot="R270"/>
 <pad name="GPIO13" x="20.4" y="1" drill="0.5" diameter="0.8128" shape="offset" rot="R270"/>
 <pad name="VCC" x="22.4" y="1" drill="0.5" diameter="0.8128" shape="offset" rot="R270"/>
-<text x="19.05" y="2.54" size="1.6764" layer="21" rot="R90">ESP 8266</text>
-<text x="21.59" y="2.54" size="1.27" layer="21" rot="R90">WI12</text>
+<text x="25.4" y="0" size="0.8128" layer="25" rot="R90">&gt;Name</text>
 </package>
 </packages>
 <symbols>
@@ -26746,27 +26743,27 @@ http://www.ti.com&lt;p&gt;
 </class>
 </classes>
 <parts>
-<part name="STM_CHIP" library="ST Microelctronics_By_element14_Batch_1" deviceset="STM32L152RBT6" device="" value="STM32F103RBT6 "/>
+<part name="STMF401" library="ST Microelctronics_By_element14_Batch_1" deviceset="STM32L152RBT6" device="" value="STM32F103RBT6 "/>
 <part name="SUPPLY1" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY5" library="supply2" deviceset="VCC" device=""/>
-<part name="STM-C9" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C25" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="SUPPLY8" library="supply2" deviceset="VDD" device=""/>
-<part name="STM-C10" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
-<part name="STM-C11" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
-<part name="STM-C12" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C24" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C26" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C27" library="rcl" deviceset="C-EU" device="C0402" value="100nF"/>
 <part name="STM-C13" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="SUPPLY9" library="supply2" deviceset="DGND" device=""/>
-<part name="STM-C1" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
+<part name="C23" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
 <part name="SUPPLY12" library="supply2" deviceset="DGND" device=""/>
 <part name="SUPPLY15" library="supply2" deviceset="VDD" device=""/>
-<part name="STM-L1" library="inductors" deviceset="BLM15H" device="" technology="B121SN1"/>
+<part name="L3" library="inductors" deviceset="BLM15H" device="" technology="B121SN1"/>
 <part name="SUPPLY16" library="supply2" deviceset="VCC" device=""/>
-<part name="STM-C8" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C20" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="SUPPLY18" library="supply2" deviceset="DGND" device=""/>
 <part name="SUPPLY19" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY20" library="supply2" deviceset="DGND" device=""/>
-<part name="SIM_C1" library="rcl" deviceset="C-US" device="C0603K" value="100nF"/>
-<part name="SIM_C2" library="rcl" deviceset="C-US" device="C0603K" value="22pF"/>
+<part name="C80" library="rcl" deviceset="C-US" device="C0603K" value="100nF"/>
+<part name="C81" library="rcl" deviceset="C-US" device="C0603K" value="22pF"/>
 <part name="IC1" library="microbuilder" deviceset="GSM_SIM900_LITERAL" device="" value="SIM900"/>
 <part name="SIM900-R3" library="rcl" deviceset="R-EU_" device="R0603" value="22R"/>
 <part name="SIM900-R2" library="rcl" deviceset="R-EU_" device="R0603" value="22R"/>
@@ -26774,18 +26771,18 @@ http://www.ti.com&lt;p&gt;
 <part name="SIM900-C4" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="SIM900-C5" library="rcl" deviceset="C-EU" device="C0603" value="22pF"/>
 <part name="SIM900-C3" library="rcl" deviceset="C-EU" device="C0603" value="4u7"/>
-<part name="SIM900-C1" library="rcl" deviceset="CPOL-EU" device="153CLV-0605" value="100uF"/>
-<part name="SIM900-C2" library="rcl" deviceset="CPOL-EU" device="153CLV-0605" value="100uF"/>
-<part name="SIM900-T1" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="MMBT2222ALT1"/>
-<part name="SIM900-LED1" library="microbuilder" deviceset="LED" device="0805_NOOUTLINE"/>
-<part name="SIM900-R4" library="rcl" deviceset="R-EU_" device="R0402" value="680R"/>
-<part name="SIM900-R5" library="rcl" deviceset="R-EU_" device="R0603" value="1K"/>
-<part name="SIM900-R6" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
-<part name="SIM900-T2" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="MMBT2222ALT1"/>
-<part name="SIM900-LED2" library="microbuilder" deviceset="LED" device="0805_NOOUTLINE"/>
-<part name="SIM900-R7" library="rcl" deviceset="R-EU_" device="R0603" value="680R"/>
-<part name="SIM900-R8" library="rcl" deviceset="R-EU_" device="R0603" value="1K"/>
-<part name="SIM900-R9" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
+<part name="C96" library="rcl" deviceset="CPOL-EU" device="153CLV-0605" value="100uF"/>
+<part name="C97" library="rcl" deviceset="CPOL-EU" device="153CLV-0605" value="100uF"/>
+<part name="T1" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="MMBT2222ALT1"/>
+<part name="LED1" library="microbuilder" deviceset="LED" device="0805_NOOUTLINE"/>
+<part name="R94" library="rcl" deviceset="R-EU_" device="R0603" value="680R"/>
+<part name="R95" library="rcl" deviceset="R-EU_" device="R0603" value="1K"/>
+<part name="R96" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
+<part name="T2" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="MMBT2222ALT1"/>
+<part name="LED2" library="microbuilder" deviceset="LED" device="0805_NOOUTLINE"/>
+<part name="R92" library="rcl" deviceset="R-EU_" device="R0603" value="680R"/>
+<part name="R91" library="rcl" deviceset="R-EU_" device="R0603" value="1K"/>
+<part name="R90" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
 <part name="IC2" library="74xx-eu" deviceset="74*595" device="D" technology="HC"/>
 <part name="IC3" library="74xx-eu" deviceset="74*595" device="D" technology="HC"/>
 <part name="ETHERNET" library="microbuilder" deviceset="RJ45" device="J0026D21BNL"/>
@@ -26796,13 +26793,13 @@ http://www.ti.com&lt;p&gt;
 <part name="SUPPLY39" library="supply2" deviceset="VCC" device=""/>
 <part name="SUPPLY45" library="supply2" deviceset="VCC" device=""/>
 <part name="SUPPLY46" library="supply2" deviceset="VCC" device=""/>
-<part name="W5500-C3" library="rcl" deviceset="C-EU" device="C0603" value="4.7uF"/>
-<part name="W5500-C4" library="rcl" deviceset="C-EU" device="C0603" value="10nF"/>
-<part name="W5500-R11" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
-<part name="W5500-XTAL" library="special" deviceset="XTAL/S" device="" value="25MHz"/>
-<part name="W5500-R10" library="resistor" deviceset="R-US_" device="R0603" value="1M"/>
-<part name="W5500-C1" library="rcl" deviceset="C-EU" device="C0603" value="18pF"/>
-<part name="W5500-C2" library="rcl" deviceset="C-EU" device="C0603" value="18pF"/>
+<part name="C52" library="rcl" deviceset="C-EU" device="C0603" value="4.7uF"/>
+<part name="C55" library="rcl" deviceset="C-EU" device="C0603" value="10nF"/>
+<part name="R50" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="XTAL2" library="special" deviceset="XTAL/S" device="" value="25MHz"/>
+<part name="R56" library="resistor" deviceset="R-US_" device="R0603" value="1M"/>
+<part name="C54" library="rcl" deviceset="C-EU" device="C0603" value="18pF"/>
+<part name="C57" library="rcl" deviceset="C-EU" device="C0603" value="18pF"/>
 <part name="SUPPLY47" library="supply2" deviceset="DGND" device=""/>
 <part name="SUPPLY48" library="supply2" deviceset="VDD" device=""/>
 <part name="SUPPLY49" library="supply2" deviceset="DGND" device=""/>
@@ -26812,18 +26809,18 @@ http://www.ti.com&lt;p&gt;
 <part name="SUPPLY54" library="supply2" deviceset="VDD" device=""/>
 <part name="ETH-R4" library="resistor" deviceset="R-US_" device="R0603" value="330"/>
 <part name="ETH-R5" library="resistor" deviceset="R-US_" device="R0603" value="330"/>
-<part name="ETH-R1" library="resistor" deviceset="R-US_" device="R0603" value="49R9"/>
-<part name="ETH-R2" library="resistor" deviceset="R-US_" device="R0603" value="49R9"/>
-<part name="ETH-C1" library="rcl" deviceset="C-EU" device="C0603" value="22nF"/>
+<part name="R35" library="resistor" deviceset="R-US_" device="R0603" value="49R9"/>
+<part name="R34" library="resistor" deviceset="R-US_" device="R0603" value="49R9"/>
+<part name="C36" library="rcl" deviceset="C-EU" device="C0603" value="22nF"/>
 <part name="SUPPLY55" library="supply2" deviceset="AGND" device=""/>
-<part name="ETH-R6" library="resistor" deviceset="R-US_" device="R0603" value="49R9"/>
-<part name="ETH-R7" library="resistor" deviceset="R-US_" device="R0603" value="49R9"/>
-<part name="ETH-C3" library="rcl" deviceset="C-EU" device="C0603" value="10nF"/>
+<part name="R30" library="resistor" deviceset="R-US_" device="R0603" value="49R9"/>
+<part name="R32" library="resistor" deviceset="R-US_" device="R0603" value="49R9"/>
+<part name="C30" library="rcl" deviceset="C-EU" device="C0603" value="10nF"/>
 <part name="SUPPLY56" library="supply2" deviceset="DGND" device=""/>
 <part name="SUPPLY57" library="supply2" deviceset="DGND" device=""/>
-<part name="ETH-C2" library="rcl" deviceset="C-EU" device="C0603" value="6.8nF"/>
-<part name="ETH-C4" library="rcl" deviceset="C-EU" device="C0603" value="6.8nF"/>
-<part name="ETH-R3" library="resistor" deviceset="R-US_" device="R0603" value="10R"/>
+<part name="C32" library="rcl" deviceset="C-EU" device="C0603" value="6.8nF"/>
+<part name="C34" library="rcl" deviceset="C-EU" device="C0603" value="6.8nF"/>
+<part name="R33" library="resistor" deviceset="R-US_" device="R0603" value="10R"/>
 <part name="SUPPLY58" library="supply2" deviceset="VCC" device=""/>
 <part name="IC4" library="ade7758" deviceset="ADE7758" device="RW"/>
 <part name="ADE-C11" library="SparkFun-Passives" deviceset="CAP" device="0402-CAP" value="33nF"/>
@@ -26846,12 +26843,12 @@ http://www.ti.com&lt;p&gt;
 <part name="SUPPLY64" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY65" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY66" library="supply2" deviceset="AGND" device=""/>
-<part name="ADE-C1" library="rcl" deviceset="C-US" device="C0603" value="0.1uF"/>
-<part name="ADE-C2" library="rcl" deviceset="C-US" device="C0805K" value="10uF"/>
+<part name="C71" library="rcl" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C72" library="rcl" deviceset="C-US" device="C0805K" value="10uF"/>
 <part name="SUPPLY67" library="supply2" deviceset="AGND" device=""/>
 <part name="ADE-XTAL" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="HC49US" value="10MHz"/>
-<part name="ADE-C4" library="rcl" deviceset="C-EU" device="C0603" value="22pF"/>
-<part name="ADE-C3" library="rcl" deviceset="C-EU" device="C0603" value="22pF"/>
+<part name="C74" library="rcl" deviceset="C-EU" device="C0603" value="22pF"/>
+<part name="C73" library="rcl" deviceset="C-EU" device="C0603" value="22pF"/>
 <part name="SUPPLY68" library="supply2" deviceset="DGND" device=""/>
 <part name="ADE-R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="81K"/>
 <part name="ADE-C10" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="33nF"/>
@@ -26872,7 +26869,7 @@ http://www.ti.com&lt;p&gt;
 <part name="ESP-GPIO0" library="adafruit" deviceset="PINHD-1X3" device=""/>
 <part name="ADE-C5" library="rcl" deviceset="CPOL-EU" device="153CLV-0605" value="10uF"/>
 <part name="SUPPLY17" library="supply2" deviceset="DGND" device=""/>
-<part name="ADE-C6" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C70" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="SUPPLY85" library="supply2" deviceset="DGND" device=""/>
 <part name="SUPPLY86" library="supply2" deviceset="AGND" device=""/>
 <part name="SYS-R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10R"/>
@@ -26880,23 +26877,23 @@ http://www.ti.com&lt;p&gt;
 <part name="SYS-C2" library="rcl" deviceset="C-US" device="C0603" value="0.1uF"/>
 <part name="SUPPLY87" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY88" library="supply2" deviceset="DGND" device=""/>
-<part name="W5500-C6" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
-<part name="W5500-C7" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
-<part name="W5500-C8" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
-<part name="W5500-C9" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C35" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C33" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C31" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C50" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="SUPPLY96" library="supply2" deviceset="VCC" device=""/>
-<part name="W5500-C10" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
-<part name="W5500-C11" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
-<part name="W5500-C5" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C51" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C53" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C56" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="SUPPLY94" library="supply2" deviceset="DGND" device=""/>
 <part name="SUPPLY97" library="supply2" deviceset="VDD" device=""/>
-<part name="SIM900-T3" library="transistor-neu-to92" deviceset="*-NPN-" device="SOT23-BEC" technology="MMBT2222ALT1"/>
-<part name="SIM900-R10" library="resistor" deviceset="R-EU_" device="R0603" value="120R"/>
+<part name="T3" library="transistor-neu-to92" deviceset="*-NPN-" device="SOT23-BEC" technology="MMBT2222ALT1"/>
+<part name="R93" library="resistor" deviceset="R-EU_" device="R0603" value="120R"/>
 <part name="ESP-C1" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="SUPPLY78" library="supply2" deviceset="DGND" device=""/>
-<part name="SYS-R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10R"/>
-<part name="SYS-C3" library="rcl" deviceset="C-US" device="C0603" value="0.1uF"/>
-<part name="SYS-C4" library="rcl" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="R10" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10R"/>
+<part name="C10" library="rcl" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C11" library="rcl" deviceset="C-US" device="C0603" value="0.1uF"/>
 <part name="SUPPLY100" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY102" library="supply2" deviceset="DGND" device=""/>
 <part name="SUPPLY103" library="supply2" deviceset="VDD" device=""/>
@@ -26943,11 +26940,11 @@ http://www.ti.com&lt;p&gt;
 <part name="MQ2-R1" library="resistor" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="SUPPLY80" library="supply2" deviceset="DGND" device=""/>
 <part name="SUPPLY92" library="supply2" deviceset="VDD" device=""/>
-<part name="W5500-C12" library="rcl" deviceset="CPOL-EU" device="153CLV-0605" value="10uF/16V"/>
-<part name="W5500-R12" library="resistor" deviceset="R-US_" device="R0805" value="12K4"/>
+<part name="C37" library="rcl" deviceset="CPOL-EU" device="153CLV-0605" value="10uF/16V"/>
+<part name="R31" library="resistor" deviceset="R-US_" device="R0805" value="12K4"/>
 <part name="SUPPLY4" library="supply2" deviceset="DGND" device=""/>
 <part name="W5500-C13" library="rcl" deviceset="CPOL-EU" device="153CLV-0605" value="10uF/16V"/>
-<part name="W5500-R13" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R54" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="SUPPLY7" library="supply2" deviceset="VDD" device=""/>
 <part name="STM-SWD" library="TFT_LCD_2.2" deviceset="PINHD4" device=""/>
 <part name="SUPPLY93" library="supply2" deviceset="VDD" device=""/>
@@ -26955,13 +26952,13 @@ http://www.ti.com&lt;p&gt;
 <part name="STM-USART" library="TFT_LCD_2.2" deviceset="PINHD4" device=""/>
 <part name="SUPPLY10" library="supply2" deviceset="VDD" device=""/>
 <part name="SUPPLY11" library="supply2" deviceset="DGND" device=""/>
-<part name="PWR-SWT" library="rcl" deviceset="R-EU_" device="R0402"/>
+<part name="PWR" library="rcl" deviceset="R-EU_" device="R0402"/>
 <part name="SUPPLY82" library="supply2" deviceset="VDD" device=""/>
-<part name="S1" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="SMD"/>
+<part name="S1" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="PTH"/>
 <part name="BAT1" library="SparkFun-Electromechanical" deviceset="BATTERY" device="12MM"/>
-<part name="STM-XTAL" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="TC26H" value="32.768kHz"/>
-<part name="STM-C2" library="rcl" deviceset="C-EU" device="C0603" value="4.3pF"/>
-<part name="STM-C3" library="rcl" deviceset="C-EU" device="C0603" value="4.3pF"/>
+<part name="XTAL1" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="TC26H" value="32.768kHz"/>
+<part name="C22" library="rcl" deviceset="C-EU" device="C0603" value="4.3pF"/>
+<part name="C21" library="rcl" deviceset="C-EU" device="C0603" value="4.3pF"/>
 <part name="SUPPLY3" library="supply2" deviceset="DGND" device=""/>
 <part name="SUPPLY6" library="supply2" deviceset="DGND" device=""/>
 <part name="JP1" library="pinhead" deviceset="PINHD-2X4" device=""/>
@@ -26973,33 +26970,33 @@ http://www.ti.com&lt;p&gt;
 <part name="SUPPLY13" library="supply2" deviceset="VDD" device=""/>
 <part name="SUPPLY14" library="supply2" deviceset="DGND" device=""/>
 <part name="SUPPLY83" library="supply2" deviceset="DGND" device=""/>
-<part name="U$5" library="esp8266" deviceset="ESP8266" device="WI12"/>
+<part name="ESP" library="esp8266" deviceset="ESP8266" device="WI12" value="ESP"/>
 <part name="OK2" library="optocoupler" deviceset="ILD2*" device="" technology="05"/>
 <part name="OK1" library="optocoupler" deviceset="ILD2*" device="" technology="05"/>
 <part name="SUPPLY34" library="supply2" deviceset="+5V" device=""/>
 <part name="SUPPLY77" library="supply2" deviceset="VDD" device=""/>
-<part name="SYS-L2" library="dp_devices" deviceset="FERRITE" device="-0805" value="150Mhz"/>
-<part name="JP_ESP_RX" library="rcl" deviceset="R-EU_" device="R0201" value="0"/>
-<part name="JP_ESP_TX" library="rcl" deviceset="R-EU_" device="R0201" value="0"/>
-<part name="U$7" library="SparkFun" deviceset="U.FL" device=""/>
-<part name="U$8" library="bontor" deviceset="SIM_HOLDER" device=""/>
+<part name="L2" library="dp_devices" deviceset="FERRITE" device="-0805" value="150Mhz"/>
+<part name="JRX" library="rcl" deviceset="R-EU_" device="R0201" value="0"/>
+<part name="JTX" library="rcl" deviceset="R-EU_" device="R0201" value="0"/>
+<part name="ANT1" library="SparkFun" deviceset="U.FL" device=""/>
+<part name="SIMHOLDER" library="bontor" deviceset="SIM_HOLDER" device=""/>
 <part name="SUPPLY73" library="supply2" deviceset="DGND" device=""/>
 <part name="SUPPLY99" library="supply2" deviceset="DGND" device=""/>
-<part name="U$9" library="bontor" deviceset="TRANSFORMER" device=""/>
-<part name="U$10" library="bontor" deviceset="TRANSFORMER" device=""/>
-<part name="U$11" library="bontor" deviceset="TRANSFORMER" device=""/>
+<part name="TV16-1" library="bontor" deviceset="TRANSFORMER" device=""/>
+<part name="TV16-2" library="bontor" deviceset="TRANSFORMER" device=""/>
+<part name="TV16-3" library="bontor" deviceset="TRANSFORMER" device=""/>
 <part name="RT1" library="rcl" deviceset="R-EU_" device="0309/V"/>
 <part name="RT2" library="rcl" deviceset="R-EU_" device="0309/V"/>
 <part name="RT3" library="rcl" deviceset="R-EU_" device="0309/V"/>
 <part name="RTO1" library="rcl" deviceset="R-US_" device="0309_12"/>
 <part name="RTO2" library="rcl" deviceset="R-US_" device="0309_12"/>
 <part name="RTO3" library="rcl" deviceset="R-US_" device="0309_12"/>
-<part name="U$12" library="bontor" deviceset="TERMINAL_BLOCK_TW" device=""/>
-<part name="U$13" library="bontor" deviceset="LCD_2.4" device=""/>
+<part name="TERM_BLOCK" library="bontor" deviceset="TERMINAL_BLOCK_TW" device=""/>
+<part name="LCD14" library="bontor" deviceset="LCD_2.4" device=""/>
 <part name="SUPPLY21" library="supply2" deviceset="DGND" device=""/>
-<part name="RW5500-1" library="dp_devices" deviceset="RESISTOR_ARRAY_4" device="" value="10k"/>
-<part name="RW5500-2" library="dp_devices" deviceset="RESISTOR_ARRAY_4" device="" value="10k"/>
-<part name="RW5500-3" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R53" library="dp_devices" deviceset="RESISTOR_ARRAY_4" device="" value="10k"/>
+<part name="R52" library="dp_devices" deviceset="RESISTOR_ARRAY_4" device="" value="10k"/>
+<part name="R51" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="SUPPLY75" library="supply2" deviceset="DGND" device=""/>
 <part name="SUPPLY70" library="supply2" deviceset="DGND" device=""/>
 <part name="ESP_EXT" library="TFT_LCD_2.2" deviceset="PINHD4" device=""/>
@@ -27009,44 +27006,49 @@ http://www.ti.com&lt;p&gt;
 <part name="SUPPLY101" library="supply2" deviceset="VDD" device=""/>
 <part name="SUPPLY108" library="supply2" deviceset="VDD" device=""/>
 <part name="SUPPLY111" library="supply2" deviceset="VDD" device=""/>
-<part name="CC_C14" library="rcl" deviceset="C-EU" device="C0402" value="100nF"/>
-<part name="CC_C20" library="rcl" deviceset="C-EU" device="C0402" value="100nF"/>
-<part name="CC_C8" library="rcl" deviceset="C-EU" device="C0402" value="100nF"/>
+<part name="C46" library="rcl" deviceset="C-EU" device="C0402" value="100nF"/>
+<part name="C41" library="rcl" deviceset="C-EU" device="C0402" value="100nF"/>
+<part name="C43" library="rcl" deviceset="C-EU" device="C0402" value="100nF"/>
 <part name="SUPPLY113" library="supply2" deviceset="DGND" device=""/>
 <part name="SUPPLY114" library="supply2" deviceset="DGND" device=""/>
 <part name="SUPPLY115" library="supply2" deviceset="DGND" device=""/>
-<part name="CC_DCOUP" library="rcl" deviceset="C-EU" device="C0402" value="100nF"/>
+<part name="C40" library="rcl" deviceset="C-EU" device="C0402" value="100nF"/>
 <part name="SUPPLY116" library="supply2" deviceset="DGND" device=""/>
 <part name="SUPPLY117" library="supply2" deviceset="VDD" device=""/>
 <part name="X1" library="bbb-cc2520" deviceset="NX2520SA" device=""/>
-<part name="CC_CX1" library="rcl" deviceset="C-EU" device="C0201" value="27p"/>
-<part name="CC_CX2" library="rcl" deviceset="C-EU" device="C0201" value="27p"/>
+<part name="C44" library="rcl" deviceset="C-EU" device="C0201" value="27p"/>
+<part name="C45" library="rcl" deviceset="C-EU" device="C0201" value="27p"/>
 <part name="SUPPLY118" library="supply2" deviceset="DGND" device=""/>
 <part name="RBIAS" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="56k"/>
 <part name="SUPPLY119" library="supply2" deviceset="DGND" device=""/>
 <part name="B1" library="rpi-cc2520" deviceset="2450BM15A0002" device=""/>
 <part name="SUPPLY120" library="supply2" deviceset="DGND" device=""/>
-<part name="J1" library="SparkFun-Connectors" deviceset="U.FL" device="" value="U.FL"/>
+<part name="ANT2" library="SparkFun-Connectors" deviceset="U.FL" device="" value="U.FL"/>
 <part name="SUPPLY121" library="supply2" deviceset="DGND" device=""/>
 <part name="SUPPLY122" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY123" library="supply2" deviceset="DGND" device=""/>
 <part name="SUPPLY124" library="supply2" deviceset="DGND" device=""/>
-<part name="SYS-L1" library="dp_devices" deviceset="FERRITE" device="-0805" value="150Mhz"/>
+<part name="L1" library="dp_devices" deviceset="FERRITE" device="-0805" value="150Mhz"/>
 <part name="USB_IN" library="SparkFun-Connectors" deviceset="USB_MICROB_PLUG" device="CONN-11752" value="USB_MICROB"/>
 <part name="SUPPLY125" library="supply2" deviceset="+5V" device=""/>
 <part name="SUPPLY126" library="supply2" deviceset="DGND" device=""/>
 <part name="SUPPLY127" library="supply2" deviceset="DGND" device=""/>
-<part name="U$3" library="bontor" deviceset="HLK-PM01" device=""/>
+<part name="HLK-PM01" library="bontor" deviceset="HLK-PM01" device=""/>
 <part name="SUPPLY41" library="supply2" deviceset="+5V" device=""/>
 <part name="SUPPLY42" library="supply2" deviceset="DGND" device=""/>
-<part name="U$6" library="bontor" deviceset="DCDCMODULE_360" device=""/>
-<part name="U$14" library="bontor" deviceset="RJ11-4P-V" device=""/>
-<part name="U$15" library="bontor" deviceset="RJ11-4P-V" device=""/>
-<part name="U$16" library="bontor" deviceset="RJ11-4P-V" device=""/>
+<part name="DCDC" library="bontor" deviceset="DCDCMODULE_360" device=""/>
+<part name="RJ-3" library="bontor" deviceset="RJ11-4P-V" device=""/>
+<part name="RJ-2" library="bontor" deviceset="RJ11-4P-V" device=""/>
+<part name="RJ-1" library="bontor" deviceset="RJ11-4P-V" device=""/>
 <part name="SUPPLY128" library="supply2" deviceset="DGND" device=""/>
 <part name="SUPPLY130" library="supply2" deviceset="DGND" device=""/>
 <part name="SUPPLY132" library="supply2" deviceset="DGND" device=""/>
 <part name="U$17" library="DHT11" deviceset="DHT11" device=""/>
+<part name="LCD_C1" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="SUPPLY95" library="supply2" deviceset="VDD" device=""/>
+<part name="SUPPLY129" library="supply2" deviceset="DGND" device=""/>
+<part name="C28" library="rcl" deviceset="C-EU" device="C0603" value="4.7uF"/>
+<part name="SUPPLY131" library="supply2" deviceset="DGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -27054,27 +27056,27 @@ http://www.ti.com&lt;p&gt;
 <frame x1="0" y1="0" x2="635" y2="424.18" columns="8" rows="5" layer="91"/>
 </plain>
 <instances>
-<instance part="STM_CHIP" gate="A" x="78.74" y="81.28"/>
-<instance part="SUPPLY1" gate="G$1" x="132.08" y="27.94"/>
-<instance part="SUPPLY5" gate="G$1" x="132.08" y="45.72"/>
-<instance part="STM-C9" gate="G$1" x="132.08" y="38.1"/>
+<instance part="STMF401" gate="A" x="78.74" y="81.28"/>
+<instance part="SUPPLY1" gate="G$1" x="132.08" y="25.4"/>
+<instance part="SUPPLY5" gate="G$1" x="132.08" y="38.1"/>
+<instance part="C25" gate="G$1" x="132.08" y="33.02"/>
 <instance part="SUPPLY8" gate="G$1" x="147.32" y="45.72"/>
-<instance part="STM-C10" gate="G$1" x="147.32" y="38.1"/>
-<instance part="STM-C11" gate="G$1" x="157.48" y="38.1"/>
-<instance part="STM-C12" gate="G$1" x="167.64" y="38.1"/>
+<instance part="C24" gate="G$1" x="147.32" y="38.1"/>
+<instance part="C26" gate="G$1" x="157.48" y="38.1"/>
+<instance part="C27" gate="G$1" x="167.64" y="38.1"/>
 <instance part="STM-C13" gate="G$1" x="177.8" y="38.1"/>
 <instance part="SUPPLY9" gate="G$1" x="147.32" y="27.94"/>
-<instance part="STM-C1" gate="G$1" x="20.32" y="119.38" rot="R180"/>
+<instance part="C23" gate="G$1" x="20.32" y="119.38" rot="R180"/>
 <instance part="SUPPLY12" gate="G$1" x="20.32" y="114.3"/>
 <instance part="SUPPLY15" gate="G$1" x="20.32" y="132.08"/>
-<instance part="STM-L1" gate="G$1" x="35.56" y="124.46"/>
+<instance part="L3" gate="G$1" x="35.56" y="124.46"/>
 <instance part="SUPPLY16" gate="G$1" x="43.18" y="127"/>
-<instance part="STM-C8" gate="G$1" x="152.4" y="73.66"/>
+<instance part="C20" gate="G$1" x="152.4" y="73.66"/>
 <instance part="SUPPLY18" gate="G$1" x="139.7" y="58.42"/>
 <instance part="SUPPLY19" gate="G$1" x="43.18" y="38.1" rot="R270"/>
 <instance part="SUPPLY20" gate="G$1" x="43.18" y="30.48" rot="R270"/>
-<instance part="SIM_C1" gate="G$1" x="167.64" y="394.97"/>
-<instance part="SIM_C2" gate="G$1" x="185.42" y="394.97"/>
+<instance part="C80" gate="G$1" x="167.64" y="394.97"/>
+<instance part="C81" gate="G$1" x="185.42" y="394.97"/>
 <instance part="IC1" gate="G$1" x="205.74" y="281.94"/>
 <instance part="SIM900-R3" gate="G$1" x="223.52" y="228.6"/>
 <instance part="SIM900-R2" gate="G$1" x="226.06" y="233.68"/>
@@ -27082,18 +27084,18 @@ http://www.ti.com&lt;p&gt;
 <instance part="SIM900-C4" gate="G$1" x="215.9" y="220.98"/>
 <instance part="SIM900-C5" gate="G$1" x="228.6" y="220.98"/>
 <instance part="SIM900-C3" gate="G$1" x="205.74" y="236.22"/>
-<instance part="SIM900-C1" gate="G$1" x="223.52" y="335.28"/>
-<instance part="SIM900-C2" gate="G$1" x="238.76" y="335.28"/>
-<instance part="SIM900-T1" gate="G$1" x="309.88" y="335.28"/>
-<instance part="SIM900-LED1" gate="G$1" x="312.42" y="345.44" rot="R270"/>
-<instance part="SIM900-R4" gate="G$1" x="312.42" y="359.41" rot="R90"/>
-<instance part="SIM900-R5" gate="G$1" x="294.64" y="335.28" rot="R180"/>
-<instance part="SIM900-R6" gate="G$1" x="304.8" y="327.66" rot="R270"/>
-<instance part="SIM900-T2" gate="G$1" x="309.88" y="271.78"/>
-<instance part="SIM900-LED2" gate="G$1" x="312.42" y="283.21" rot="R270"/>
-<instance part="SIM900-R7" gate="G$1" x="312.42" y="294.64" rot="R90"/>
-<instance part="SIM900-R8" gate="G$1" x="294.64" y="271.78" rot="R180"/>
-<instance part="SIM900-R9" gate="G$1" x="304.8" y="264.16" rot="R270"/>
+<instance part="C96" gate="G$1" x="223.52" y="335.28"/>
+<instance part="C97" gate="G$1" x="238.76" y="335.28"/>
+<instance part="T1" gate="G$1" x="309.88" y="335.28"/>
+<instance part="LED1" gate="G$1" x="312.42" y="345.44" rot="R270"/>
+<instance part="R94" gate="G$1" x="312.42" y="359.41" rot="R90"/>
+<instance part="R95" gate="G$1" x="294.64" y="335.28" rot="R180"/>
+<instance part="R96" gate="G$1" x="304.8" y="327.66" rot="R270"/>
+<instance part="T2" gate="G$1" x="309.88" y="271.78"/>
+<instance part="LED2" gate="G$1" x="312.42" y="283.21" rot="R270"/>
+<instance part="R92" gate="G$1" x="312.42" y="294.64" rot="R90"/>
+<instance part="R91" gate="G$1" x="294.64" y="271.78" rot="R180"/>
+<instance part="R90" gate="G$1" x="304.8" y="264.16" rot="R270"/>
 <instance part="IC2" gate="A" x="375.92" y="271.78"/>
 <instance part="IC3" gate="A" x="375.92" y="228.6"/>
 <instance part="ETHERNET" gate="G$1" x="109.22" y="381"/>
@@ -27104,13 +27106,13 @@ http://www.ti.com&lt;p&gt;
 <instance part="SUPPLY39" gate="G$1" x="38.1" y="228.6" rot="R90"/>
 <instance part="SUPPLY45" gate="G$1" x="63.5" y="205.74" rot="R180"/>
 <instance part="SUPPLY46" gate="G$1" x="78.74" y="205.74" rot="R180"/>
-<instance part="W5500-C3" gate="G$1" x="78.74" y="195.58"/>
-<instance part="W5500-C4" gate="G$1" x="88.9" y="195.58"/>
-<instance part="W5500-R11" gate="G$1" x="101.6" y="193.04" rot="R90"/>
-<instance part="W5500-XTAL" gate="G$1" x="137.16" y="231.14"/>
-<instance part="W5500-R10" gate="G$1" x="137.16" y="238.76"/>
-<instance part="W5500-C1" gate="G$1" x="129.54" y="210.82"/>
-<instance part="W5500-C2" gate="G$1" x="144.78" y="210.82"/>
+<instance part="C52" gate="G$1" x="78.74" y="195.58"/>
+<instance part="C55" gate="G$1" x="88.9" y="195.58"/>
+<instance part="R50" gate="G$1" x="101.6" y="193.04" rot="R90"/>
+<instance part="XTAL2" gate="G$1" x="137.16" y="231.14"/>
+<instance part="R56" gate="G$1" x="137.16" y="238.76"/>
+<instance part="C54" gate="G$1" x="129.54" y="210.82"/>
+<instance part="C57" gate="G$1" x="144.78" y="210.82"/>
 <instance part="SUPPLY47" gate="G$1" x="144.78" y="200.66"/>
 <instance part="SUPPLY48" gate="G$1" x="106.68" y="233.68" rot="R270"/>
 <instance part="SUPPLY49" gate="G$1" x="114.3" y="236.22" rot="R90"/>
@@ -27120,18 +27122,18 @@ http://www.ti.com&lt;p&gt;
 <instance part="SUPPLY54" gate="G$1" x="93.98" y="386.08" rot="R90"/>
 <instance part="ETH-R4" gate="G$1" x="83.82" y="383.54"/>
 <instance part="ETH-R5" gate="G$1" x="83.82" y="375.92"/>
-<instance part="ETH-R1" gate="G$1" x="48.26" y="403.86" rot="R90"/>
-<instance part="ETH-R2" gate="G$1" x="55.88" y="403.86" rot="R90"/>
-<instance part="ETH-C1" gate="G$1" x="63.5" y="383.54" rot="R180"/>
+<instance part="R35" gate="G$1" x="48.26" y="403.86" rot="R90"/>
+<instance part="R34" gate="G$1" x="55.88" y="403.86" rot="R90"/>
+<instance part="C36" gate="G$1" x="63.5" y="383.54" rot="R180"/>
 <instance part="SUPPLY55" gate="G$1" x="96.52" y="355.6"/>
-<instance part="ETH-R6" gate="G$1" x="78.74" y="365.76" rot="R90"/>
-<instance part="ETH-R7" gate="G$1" x="78.74" y="353.06" rot="R90"/>
-<instance part="ETH-C3" gate="G$1" x="63.5" y="353.06" rot="R180"/>
+<instance part="R30" gate="G$1" x="78.74" y="365.76" rot="R90"/>
+<instance part="R32" gate="G$1" x="78.74" y="353.06" rot="R90"/>
+<instance part="C30" gate="G$1" x="63.5" y="353.06" rot="R180"/>
 <instance part="SUPPLY56" gate="G$1" x="63.5" y="375.92"/>
 <instance part="SUPPLY57" gate="G$1" x="63.5" y="345.44"/>
-<instance part="ETH-C2" gate="G$1" x="88.9" y="370.84" rot="R270"/>
-<instance part="ETH-C4" gate="G$1" x="88.9" y="347.98" rot="R270"/>
-<instance part="ETH-R3" gate="G$1" x="63.5" y="403.86" rot="R90"/>
+<instance part="C32" gate="G$1" x="88.9" y="370.84" rot="R270"/>
+<instance part="C34" gate="G$1" x="88.9" y="347.98" rot="R270"/>
+<instance part="R33" gate="G$1" x="63.5" y="403.86" rot="R90"/>
 <instance part="SUPPLY58" gate="G$1" x="48.26" y="411.48"/>
 <instance part="IC4" gate=".PWR" x="327.66" y="180.34" rot="R180"/>
 <instance part="IC4" gate=".I_A" x="308.61" y="110.49"/>
@@ -27160,12 +27162,12 @@ http://www.ti.com&lt;p&gt;
 <instance part="SUPPLY66" gate="G$1" x="274.32" y="25.4"/>
 <instance part="IC4" gate=".DIF" x="317.5" y="134.62" rot="R180"/>
 <instance part="IC4" gate=".CAL" x="332.74" y="134.62"/>
-<instance part="ADE-C1" gate="G$1" x="345.44" y="167.64"/>
-<instance part="ADE-C2" gate="G$1" x="355.6" y="167.64"/>
+<instance part="C71" gate="G$1" x="345.44" y="167.64"/>
+<instance part="C72" gate="G$1" x="355.6" y="167.64"/>
 <instance part="SUPPLY67" gate="G$1" x="350.52" y="154.94"/>
 <instance part="ADE-XTAL" gate="G$1" x="355.6" y="127"/>
-<instance part="ADE-C4" gate="G$1" x="363.22" y="124.46"/>
-<instance part="ADE-C3" gate="G$1" x="347.98" y="124.46"/>
+<instance part="C74" gate="G$1" x="363.22" y="124.46"/>
+<instance part="C73" gate="G$1" x="347.98" y="124.46"/>
 <instance part="SUPPLY68" gate="G$1" x="355.6" y="111.76"/>
 <instance part="ADE-R2" gate="G$1" x="248.92" y="182.88"/>
 <instance part="ADE-C10" gate="G$1" x="256.54" y="144.78"/>
@@ -27186,7 +27188,7 @@ http://www.ti.com&lt;p&gt;
 <instance part="ESP-GPIO0" gate="A" x="375.92" y="396.24"/>
 <instance part="ADE-C5" gate="G$1" x="330.2" y="78.74"/>
 <instance part="SUPPLY17" gate="G$1" x="330.2" y="63.5"/>
-<instance part="ADE-C6" gate="G$1" x="340.36" y="78.74"/>
+<instance part="C70" gate="G$1" x="340.36" y="78.74"/>
 <instance part="SUPPLY85" gate="G$1" x="360.68" y="27.94"/>
 <instance part="SUPPLY86" gate="G$1" x="335.28" y="27.94"/>
 <instance part="SYS-R1" gate="G$1" x="414.02" y="182.88"/>
@@ -27194,23 +27196,23 @@ http://www.ti.com&lt;p&gt;
 <instance part="SYS-C2" gate="G$1" x="421.64" y="175.26"/>
 <instance part="SUPPLY87" gate="G$1" x="421.64" y="165.1"/>
 <instance part="SUPPLY88" gate="G$1" x="406.4" y="165.1"/>
-<instance part="W5500-C6" gate="G$1" x="25.4" y="170.18"/>
-<instance part="W5500-C7" gate="G$1" x="35.56" y="170.18"/>
-<instance part="W5500-C8" gate="G$1" x="45.72" y="170.18"/>
-<instance part="W5500-C9" gate="G$1" x="55.88" y="170.18"/>
+<instance part="C35" gate="G$1" x="25.4" y="170.18"/>
+<instance part="C33" gate="G$1" x="35.56" y="170.18"/>
+<instance part="C31" gate="G$1" x="45.72" y="170.18"/>
+<instance part="C50" gate="G$1" x="55.88" y="170.18"/>
 <instance part="SUPPLY96" gate="G$1" x="25.4" y="177.8"/>
-<instance part="W5500-C10" gate="G$1" x="66.04" y="170.18"/>
-<instance part="W5500-C11" gate="G$1" x="76.2" y="170.18"/>
-<instance part="W5500-C5" gate="G$1" x="106.68" y="208.28"/>
+<instance part="C51" gate="G$1" x="66.04" y="170.18"/>
+<instance part="C53" gate="G$1" x="76.2" y="170.18"/>
+<instance part="C56" gate="G$1" x="106.68" y="208.28"/>
 <instance part="SUPPLY94" gate="G$1" x="106.68" y="198.12"/>
 <instance part="SUPPLY97" gate="G$1" x="106.68" y="215.9"/>
-<instance part="SIM900-T3" gate="G$1" x="311.15" y="210.82"/>
-<instance part="SIM900-R10" gate="G$1" x="300.99" y="210.82"/>
+<instance part="T3" gate="G$1" x="311.15" y="210.82"/>
+<instance part="R93" gate="G$1" x="300.99" y="210.82"/>
 <instance part="ESP-C1" gate="G$1" x="408.94" y="396.24"/>
 <instance part="SUPPLY78" gate="G$1" x="313.69" y="200.66"/>
-<instance part="SYS-R2" gate="G$1" x="414.02" y="132.08"/>
-<instance part="SYS-C3" gate="G$1" x="406.4" y="127"/>
-<instance part="SYS-C4" gate="G$1" x="421.64" y="127"/>
+<instance part="R10" gate="G$1" x="414.02" y="132.08"/>
+<instance part="C10" gate="G$1" x="406.4" y="127"/>
+<instance part="C11" gate="G$1" x="421.64" y="127"/>
 <instance part="SUPPLY100" gate="G$1" x="421.64" y="114.3"/>
 <instance part="SUPPLY102" gate="G$1" x="406.4" y="114.3"/>
 <instance part="SUPPLY103" gate="G$1" x="398.78" y="139.7"/>
@@ -27259,11 +27261,11 @@ http://www.ti.com&lt;p&gt;
 <instance part="MQ2-R1" gate="G$1" x="406.4" y="365.76"/>
 <instance part="SUPPLY80" gate="G$1" x="449.58" y="78.74"/>
 <instance part="SUPPLY92" gate="G$1" x="441.96" y="73.66"/>
-<instance part="W5500-C12" gate="G$1" x="86.36" y="170.18"/>
-<instance part="W5500-R12" gate="G$1" x="25.4" y="220.98" rot="R90"/>
+<instance part="C37" gate="G$1" x="86.36" y="170.18"/>
+<instance part="R31" gate="G$1" x="25.4" y="220.98" rot="R90"/>
 <instance part="SUPPLY4" gate="G$1" x="25.4" y="210.82"/>
 <instance part="W5500-C13" gate="G$1" x="116.84" y="208.28"/>
-<instance part="W5500-R13" gate="G$1" x="121.92" y="251.46" rot="R90"/>
+<instance part="R54" gate="G$1" x="121.92" y="251.46" rot="R90"/>
 <instance part="SUPPLY7" gate="G$1" x="129.54" y="256.54" rot="R270"/>
 <instance part="STM-SWD" gate="G$1" x="121.92" y="143.51"/>
 <instance part="SUPPLY93" gate="G$1" x="115.57" y="151.13"/>
@@ -27271,13 +27273,13 @@ http://www.ti.com&lt;p&gt;
 <instance part="STM-USART" gate="G$1" x="121.92" y="175.26"/>
 <instance part="SUPPLY10" gate="G$1" x="115.57" y="182.88"/>
 <instance part="SUPPLY11" gate="G$1" x="115.57" y="167.64"/>
-<instance part="PWR-SWT" gate="G$1" x="340.36" y="393.7" rot="R270"/>
+<instance part="PWR" gate="G$1" x="340.36" y="393.7" rot="R270"/>
 <instance part="SUPPLY82" gate="G$1" x="334.01" y="403.86"/>
 <instance part="S1" gate="S" x="142.24" y="69.85" rot="R270"/>
 <instance part="BAT1" gate="G$1" x="78.74" y="148.59"/>
-<instance part="STM-XTAL" gate="G$1" x="129.54" y="82.55" rot="R90"/>
-<instance part="STM-C2" gate="G$1" x="137.16" y="85.09" rot="R270"/>
-<instance part="STM-C3" gate="G$1" x="137.16" y="80.01" rot="R270"/>
+<instance part="XTAL1" gate="G$1" x="129.54" y="82.55" rot="R90"/>
+<instance part="C22" gate="G$1" x="137.16" y="85.09" rot="R270"/>
+<instance part="C21" gate="G$1" x="137.16" y="80.01" rot="R270"/>
 <instance part="SUPPLY3" gate="G$1" x="83.82" y="144.78"/>
 <instance part="SUPPLY6" gate="G$1" x="144.78" y="80.01" rot="R90"/>
 <instance part="JP1" gate="A" x="472.44" y="185.42" rot="MR0"/>
@@ -27290,41 +27292,41 @@ http://www.ti.com&lt;p&gt;
 <instance part="SUPPLY13" gate="G$1" x="462.28" y="317.5"/>
 <instance part="SUPPLY14" gate="G$1" x="482.6" y="312.42"/>
 <instance part="SUPPLY83" gate="G$1" x="457.2" y="279.4"/>
-<instance part="U$5" gate="G$1" x="355.6" y="320.04"/>
+<instance part="ESP" gate="G$1" x="355.6" y="320.04"/>
 <instance part="OK2" gate="A" x="472.44" y="266.7"/>
 <instance part="OK2" gate="B" x="472.44" y="248.92"/>
 <instance part="OK1" gate="A" x="472.44" y="231.14"/>
 <instance part="OK1" gate="B" x="472.44" y="213.36"/>
 <instance part="SUPPLY34" gate="+5V" x="462.28" y="363.22"/>
 <instance part="SUPPLY77" gate="G$1" x="259.08" y="340.36"/>
-<instance part="SYS-L2" gate="L" x="248.92" y="337.82" rot="R90"/>
-<instance part="JP_ESP_RX" gate="G$1" x="22.86" y="101.6"/>
-<instance part="JP_ESP_TX" gate="G$1" x="22.86" y="93.98"/>
-<instance part="U$7" gate="G$1" x="198.12" y="345.44"/>
-<instance part="U$8" gate="G$1" x="182.88" y="363.22"/>
+<instance part="L2" gate="L" x="248.92" y="337.82" rot="R90"/>
+<instance part="JRX" gate="G$1" x="22.86" y="101.6"/>
+<instance part="JTX" gate="G$1" x="22.86" y="93.98"/>
+<instance part="ANT1" gate="G$1" x="198.12" y="345.44"/>
+<instance part="SIMHOLDER" gate="G$1" x="182.88" y="363.22"/>
 <instance part="SUPPLY73" gate="G$1" x="218.44" y="370.84"/>
 <instance part="SUPPLY99" gate="G$1" x="152.4" y="375.92" rot="R270"/>
-<instance part="U$9" gate="G$1" x="210.82" y="190.5"/>
-<instance part="U$10" gate="G$1" x="210.82" y="175.26"/>
-<instance part="U$11" gate="G$1" x="210.82" y="160.02"/>
+<instance part="TV16-1" gate="G$1" x="210.82" y="190.5"/>
+<instance part="TV16-2" gate="G$1" x="210.82" y="175.26"/>
+<instance part="TV16-3" gate="G$1" x="210.82" y="160.02"/>
 <instance part="RT1" gate="G$1" x="198.12" y="198.12"/>
 <instance part="RT2" gate="G$1" x="198.12" y="182.88"/>
 <instance part="RT3" gate="G$1" x="198.12" y="167.64"/>
 <instance part="RTO1" gate="G$1" x="236.22" y="190.5" rot="R90"/>
 <instance part="RTO2" gate="G$1" x="236.22" y="175.26" rot="R90"/>
 <instance part="RTO3" gate="G$1" x="236.22" y="160.02" rot="R90"/>
-<instance part="U$12" gate="G$1" x="172.72" y="177.8"/>
-<instance part="U$13" gate="G$1" x="406.4" y="88.9"/>
+<instance part="TERM_BLOCK" gate="G$1" x="172.72" y="177.8"/>
+<instance part="LCD14" gate="G$1" x="406.4" y="88.9"/>
 <instance part="SUPPLY21" gate="G$1" x="363.22" y="76.2"/>
-<instance part="RW5500-1" gate="B" x="60.96" y="294.64"/>
-<instance part="RW5500-1" gate="C" x="60.96" y="287.02"/>
-<instance part="RW5500-1" gate="D" x="60.96" y="279.4"/>
-<instance part="RW5500-1" gate="A" x="88.9" y="327.66" rot="R180"/>
-<instance part="RW5500-2" gate="B" x="88.9" y="312.42"/>
-<instance part="RW5500-2" gate="C" x="88.9" y="304.8"/>
-<instance part="RW5500-2" gate="D" x="88.9" y="297.18"/>
-<instance part="RW5500-2" gate="A" x="88.9" y="320.04"/>
-<instance part="RW5500-3" gate="G$1" x="91.44" y="279.4" rot="R180"/>
+<instance part="R53" gate="B" x="60.96" y="294.64"/>
+<instance part="R53" gate="C" x="60.96" y="287.02"/>
+<instance part="R53" gate="D" x="60.96" y="279.4"/>
+<instance part="R53" gate="A" x="88.9" y="327.66" rot="R180"/>
+<instance part="R52" gate="B" x="88.9" y="312.42"/>
+<instance part="R52" gate="C" x="88.9" y="304.8"/>
+<instance part="R52" gate="D" x="88.9" y="297.18"/>
+<instance part="R52" gate="A" x="88.9" y="320.04"/>
+<instance part="R51" gate="G$1" x="91.44" y="279.4" rot="R180"/>
 <instance part="SUPPLY75" gate="G$1" x="383.54" y="317.5"/>
 <instance part="SUPPLY70" gate="G$1" x="365.76" y="388.62"/>
 <instance part="ESP_EXT" gate="G$1" x="398.78" y="384.81"/>
@@ -27335,44 +27337,49 @@ http://www.ti.com&lt;p&gt;
 <instance part="SUPPLY101" gate="G$1" x="586.74" y="86.36"/>
 <instance part="SUPPLY108" gate="G$1" x="520.7" y="58.42"/>
 <instance part="SUPPLY111" gate="G$1" x="571.5" y="58.42"/>
-<instance part="CC_C14" gate="G$1" x="520.7" y="48.26"/>
-<instance part="CC_C20" gate="G$1" x="601.98" y="53.34"/>
-<instance part="CC_C8" gate="G$1" x="589.28" y="48.26"/>
+<instance part="C46" gate="G$1" x="520.7" y="48.26"/>
+<instance part="C41" gate="G$1" x="601.98" y="53.34"/>
+<instance part="C43" gate="G$1" x="589.28" y="48.26"/>
 <instance part="SUPPLY113" gate="G$1" x="589.28" y="40.64"/>
 <instance part="SUPPLY114" gate="G$1" x="601.98" y="45.72"/>
 <instance part="SUPPLY115" gate="G$1" x="520.7" y="40.64"/>
-<instance part="CC_DCOUP" gate="G$1" x="571.5" y="43.18"/>
+<instance part="C40" gate="G$1" x="571.5" y="43.18"/>
 <instance part="SUPPLY116" gate="G$1" x="571.5" y="35.56"/>
 <instance part="SUPPLY117" gate="G$1" x="568.96" y="25.4"/>
 <instance part="X1" gate="G$1" x="502.92" y="78.74"/>
-<instance part="CC_CX1" gate="G$1" x="495.3" y="71.12"/>
-<instance part="CC_CX2" gate="G$1" x="510.54" y="71.12"/>
+<instance part="C44" gate="G$1" x="495.3" y="71.12"/>
+<instance part="C45" gate="G$1" x="510.54" y="71.12"/>
 <instance part="SUPPLY118" gate="G$1" x="502.92" y="60.96"/>
 <instance part="RBIAS" gate="G$1" x="576.58" y="76.2"/>
 <instance part="SUPPLY119" gate="G$1" x="586.74" y="73.66"/>
 <instance part="B1" gate="G$1" x="584.2" y="114.3"/>
 <instance part="SUPPLY120" gate="G$1" x="599.44" y="106.68"/>
-<instance part="J1" gate="G$1" x="612.14" y="114.3" rot="R180"/>
+<instance part="ANT2" gate="G$1" x="612.14" y="114.3" rot="R180"/>
 <instance part="SUPPLY121" gate="G$1" x="622.3" y="119.38"/>
 <instance part="SUPPLY122" gate="G$1" x="546.1" y="25.4"/>
 <instance part="SUPPLY123" gate="G$1" x="299.72" y="144.78"/>
 <instance part="SUPPLY124" gate="G$1" x="502.92" y="106.68"/>
-<instance part="SYS-L1" gate="L" x="347.98" y="38.1" rot="R90"/>
+<instance part="L1" gate="L" x="347.98" y="38.1" rot="R90"/>
 <instance part="USB_IN" gate="G$1" x="350.52" y="363.22" rot="MR0"/>
 <instance part="SUPPLY125" gate="+5V" x="365.76" y="375.92"/>
 <instance part="SUPPLY126" gate="G$1" x="363.22" y="353.06"/>
 <instance part="SUPPLY127" gate="G$1" x="337.82" y="358.14"/>
-<instance part="U$3" gate="G$1" x="167.64" y="137.16"/>
+<instance part="HLK-PM01" gate="G$1" x="167.64" y="137.16"/>
 <instance part="SUPPLY41" gate="+5V" x="205.74" y="147.32"/>
 <instance part="SUPPLY42" gate="G$1" x="205.74" y="137.16"/>
-<instance part="U$6" gate="G$1" x="281.94" y="391.16"/>
-<instance part="U$14" gate="G$1" x="198.12" y="106.68"/>
-<instance part="U$15" gate="G$1" x="198.12" y="73.66"/>
-<instance part="U$16" gate="G$1" x="198.12" y="43.18"/>
+<instance part="DCDC" gate="G$1" x="281.94" y="391.16"/>
+<instance part="RJ-3" gate="G$1" x="198.12" y="106.68"/>
+<instance part="RJ-2" gate="G$1" x="198.12" y="73.66"/>
+<instance part="RJ-1" gate="G$1" x="198.12" y="43.18"/>
 <instance part="SUPPLY128" gate="G$1" x="218.44" y="55.88"/>
 <instance part="SUPPLY130" gate="G$1" x="218.44" y="86.36"/>
 <instance part="SUPPLY132" gate="G$1" x="218.44" y="119.38"/>
 <instance part="U$17" gate="G$1" x="462.28" y="391.16" rot="R270"/>
+<instance part="LCD_C1" gate="G$1" x="469.9" y="76.2" rot="MR0"/>
+<instance part="SUPPLY95" gate="G$1" x="469.9" y="83.82"/>
+<instance part="SUPPLY129" gate="G$1" x="469.9" y="68.58"/>
+<instance part="C28" gate="G$1" x="127" y="58.42"/>
+<instance part="SUPPLY131" gate="G$1" x="127" y="50.8"/>
 </instances>
 <busses>
 </busses>
@@ -27382,88 +27389,87 @@ http://www.ti.com&lt;p&gt;
 <label x="124.46" y="243.84" size="1.27" layer="95" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="SCS_N"/>
 <wire x1="124.46" y1="243.84" x2="121.92" y2="243.84" width="0.1524" layer="91"/>
-<pinref part="W5500-R13" gate="G$1" pin="1"/>
+<pinref part="R54" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="243.84" x2="101.6" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="246.38" x2="121.92" y2="243.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PB12"/>
+<pinref part="STMF401" gate="A" pin="PB12"/>
 <wire x1="109.22" y1="58.42" x2="111.76" y2="58.42" width="0.1524" layer="91"/>
 <label x="111.76" y="58.42" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LCD_CS" class="0">
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PA4"/>
+<pinref part="STMF401" gate="A" pin="PA4"/>
 <wire x1="48.26" y1="93.98" x2="45.72" y2="93.98" width="0.1524" layer="91"/>
 <label x="45.72" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="429.26" y1="83.82" x2="439.42" y2="83.82" width="0.1524" layer="91"/>
 <label x="439.42" y="83.82" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$13" gate="G$1" pin="LCD_CS"/>
+<pinref part="LCD14" gate="G$1" pin="LCD_CS"/>
 </segment>
 </net>
 <net name="LCD_SCK" class="0">
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PA5"/>
+<pinref part="STMF401" gate="A" pin="PA5"/>
 <wire x1="45.72" y1="91.44" x2="48.26" y2="91.44" width="0.1524" layer="91"/>
 <label x="45.72" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="383.54" y1="99.06" x2="375.92" y2="99.06" width="0.1524" layer="91"/>
 <label x="375.92" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$13" gate="G$1" pin="SD_SCK"/>
+<pinref part="LCD14" gate="G$1" pin="SD_SCK"/>
 </segment>
 <segment>
 <wire x1="429.26" y1="93.98" x2="439.42" y2="93.98" width="0.1524" layer="91"/>
 <label x="439.42" y="93.98" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$13" gate="G$1" pin="LCD_SCK"/>
+<pinref part="LCD14" gate="G$1" pin="LCD_SCK"/>
 </segment>
 </net>
 <net name="LCD_MISO" class="0">
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PA6"/>
+<pinref part="STMF401" gate="A" pin="PA6"/>
 <wire x1="48.26" y1="88.9" x2="45.72" y2="88.9" width="0.1524" layer="91"/>
 <label x="45.72" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="383.54" y1="96.52" x2="375.92" y2="96.52" width="0.1524" layer="91"/>
 <label x="375.92" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$13" gate="G$1" pin="SD_MISO"/>
+<pinref part="LCD14" gate="G$1" pin="SD_MISO"/>
 </segment>
 <segment>
 <wire x1="429.26" y1="99.06" x2="439.42" y2="99.06" width="0.1524" layer="91"/>
 <label x="439.42" y="99.06" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$13" gate="G$1" pin="LCD_MISO"/>
+<pinref part="LCD14" gate="G$1" pin="LCD_MISO"/>
 </segment>
 </net>
 <net name="LCD_MOSI" class="0">
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PA7"/>
+<pinref part="STMF401" gate="A" pin="PA7"/>
 <wire x1="45.72" y1="86.36" x2="48.26" y2="86.36" width="0.1524" layer="91"/>
 <label x="45.72" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="383.54" y1="93.98" x2="375.92" y2="93.98" width="0.1524" layer="91"/>
 <label x="375.92" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$13" gate="G$1" pin="SD_MOSI"/>
+<pinref part="LCD14" gate="G$1" pin="SD_MOSI"/>
 </segment>
 <segment>
 <wire x1="429.26" y1="91.44" x2="439.42" y2="91.44" width="0.1524" layer="91"/>
 <label x="439.42" y="91.44" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$13" gate="G$1" pin="LCD_MOSI"/>
+<pinref part="LCD14" gate="G$1" pin="LCD_MOSI"/>
 </segment>
 </net>
 <net name="VCC" class="0">
 <segment>
 <pinref part="SUPPLY5" gate="G$1" pin="VCC"/>
-<pinref part="STM-C9" gate="G$1" pin="1"/>
-<wire x1="132.08" y1="43.18" x2="132.08" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="C25" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="STM-L1" gate="G$1" pin="2"/>
-<pinref part="STM_CHIP" gate="A" pin="VDDA"/>
+<pinref part="L3" gate="G$1" pin="2"/>
+<pinref part="STMF401" gate="A" pin="VDDA"/>
 <wire x1="40.64" y1="124.46" x2="43.18" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="SUPPLY16" gate="G$1" pin="VCC"/>
 <wire x1="43.18" y1="124.46" x2="48.26" y2="124.46" width="0.1524" layer="91"/>
@@ -27500,36 +27506,36 @@ http://www.ti.com&lt;p&gt;
 <pinref part="SUPPLY46" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="ETH-R1" gate="G$1" pin="2"/>
+<pinref part="R35" gate="G$1" pin="2"/>
 <pinref part="SUPPLY58" gate="G$1" pin="VCC"/>
-<pinref part="ETH-R3" gate="G$1" pin="2"/>
-<pinref part="ETH-R2" gate="G$1" pin="2"/>
+<pinref part="R33" gate="G$1" pin="2"/>
+<pinref part="R34" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="408.94" x2="55.88" y2="408.94" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="408.94" x2="48.26" y2="408.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="W5500-C6" gate="G$1" pin="1"/>
+<pinref part="C35" gate="G$1" pin="1"/>
 <pinref part="SUPPLY96" gate="G$1" pin="VCC"/>
 <wire x1="25.4" y1="175.26" x2="25.4" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="W5500-C9" gate="G$1" pin="1"/>
-<pinref part="W5500-C10" gate="G$1" pin="1"/>
+<pinref part="C50" gate="G$1" pin="1"/>
+<pinref part="C51" gate="G$1" pin="1"/>
 <wire x1="66.04" y1="172.72" x2="55.88" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="W5500-C11" gate="G$1" pin="1"/>
+<pinref part="C53" gate="G$1" pin="1"/>
 <wire x1="66.04" y1="172.72" x2="76.2" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="W5500-C12" gate="G$1" pin="+"/>
+<pinref part="C37" gate="G$1" pin="+"/>
 <wire x1="76.2" y1="172.72" x2="86.36" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="W5500-C8" gate="G$1" pin="1"/>
+<pinref part="C31" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="172.72" x2="45.72" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="W5500-C7" gate="G$1" pin="1"/>
+<pinref part="C33" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="172.72" x2="35.56" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="172.72" x2="25.4" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SYS-R2" gate="G$1" pin="2"/>
+<pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="419.1" y1="132.08" x2="421.64" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="421.64" y1="132.08" x2="429.26" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="429.26" y1="132.08" x2="429.26" y2="137.16" width="0.2032" layer="91"/>
-<pinref part="SYS-C4" gate="G$1" pin="1"/>
+<pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="421.64" y1="129.54" x2="421.64" y2="132.08" width="0.1524" layer="91"/>
 <junction x="421.64" y="132.08"/>
 <pinref part="SUPPLY104" gate="G$1" pin="VCC"/>
@@ -27537,13 +27543,12 @@ http://www.ti.com&lt;p&gt;
 </net>
 <net name="AGND" class="0">
 <segment>
-<pinref part="STM-C9" gate="G$1" pin="2"/>
+<pinref part="C25" gate="G$1" pin="2"/>
 <pinref part="SUPPLY1" gate="G$1" pin="AGND"/>
-<wire x1="132.08" y1="33.02" x2="132.08" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY19" gate="G$1" pin="AGND"/>
-<pinref part="STM_CHIP" gate="A" pin="VSSA"/>
+<pinref part="STMF401" gate="A" pin="VSSA"/>
 <wire x1="45.72" y1="38.1" x2="48.26" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -27592,9 +27597,9 @@ http://www.ti.com&lt;p&gt;
 <wire x1="284.48" y1="99.06" x2="284.48" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="ADE-C1" gate="G$1" pin="2"/>
+<pinref part="C71" gate="G$1" pin="2"/>
 <wire x1="345.44" y1="162.56" x2="345.44" y2="160.02" width="0.2032" layer="91"/>
-<pinref part="ADE-C2" gate="G$1" pin="2"/>
+<pinref part="C72" gate="G$1" pin="2"/>
 <wire x1="345.44" y1="160.02" x2="350.52" y2="160.02" width="0.2032" layer="91"/>
 <wire x1="350.52" y1="160.02" x2="355.6" y2="160.02" width="0.2032" layer="91"/>
 <wire x1="355.6" y1="160.02" x2="355.6" y2="162.56" width="0.2032" layer="91"/>
@@ -27637,7 +27642,7 @@ http://www.ti.com&lt;p&gt;
 <segment>
 <pinref part="SUPPLY86" gate="G$1" pin="AGND"/>
 <wire x1="335.28" y1="38.1" x2="335.28" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="SYS-L1" gate="L" pin="1"/>
+<pinref part="L1" gate="L" pin="1"/>
 <wire x1="335.28" y1="38.1" x2="340.36" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -27646,7 +27651,7 @@ http://www.ti.com&lt;p&gt;
 <wire x1="421.64" y1="170.18" x2="421.64" y2="167.64" width="0.2032" layer="91"/>
 </segment>
 <segment>
-<pinref part="SYS-C4" gate="G$1" pin="2"/>
+<pinref part="C11" gate="G$1" pin="2"/>
 <pinref part="SUPPLY100" gate="G$1" pin="AGND"/>
 <wire x1="421.64" y1="121.92" x2="421.64" y2="116.84" width="0.1524" layer="91"/>
 </segment>
@@ -27659,11 +27664,11 @@ http://www.ti.com&lt;p&gt;
 <net name="DGND" class="0">
 <segment>
 <pinref part="SUPPLY9" gate="G$1" pin="DGND"/>
-<pinref part="STM-C10" gate="G$1" pin="2"/>
+<pinref part="C24" gate="G$1" pin="2"/>
 <wire x1="147.32" y1="30.48" x2="147.32" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="STM-C11" gate="G$1" pin="2"/>
+<pinref part="C26" gate="G$1" pin="2"/>
 <wire x1="147.32" y1="33.02" x2="157.48" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="STM-C12" gate="G$1" pin="2"/>
+<pinref part="C27" gate="G$1" pin="2"/>
 <wire x1="157.48" y1="33.02" x2="167.64" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="STM-C13" gate="G$1" pin="2"/>
 <wire x1="167.64" y1="33.02" x2="177.8" y2="33.02" width="0.1524" layer="91"/>
@@ -27672,13 +27677,13 @@ http://www.ti.com&lt;p&gt;
 <junction x="147.32" y="33.02"/>
 </segment>
 <segment>
-<pinref part="STM-C1" gate="G$1" pin="1"/>
+<pinref part="C23" gate="G$1" pin="1"/>
 <pinref part="SUPPLY12" gate="G$1" pin="DGND"/>
 </segment>
 <segment>
 <wire x1="139.7" y1="63.5" x2="139.7" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="SUPPLY18" gate="G$1" pin="DGND"/>
-<pinref part="STM-C8" gate="G$1" pin="2"/>
+<pinref part="C20" gate="G$1" pin="2"/>
 <wire x1="152.4" y1="63.5" x2="152.4" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="63.5" x2="142.24" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="S1" gate="S" pin="4"/>
@@ -27688,26 +27693,26 @@ http://www.ti.com&lt;p&gt;
 <wire x1="142.24" y1="64.77" x2="142.24" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="VSS_1"/>
+<pinref part="STMF401" gate="A" pin="VSS_1"/>
 <pinref part="SUPPLY20" gate="G$1" pin="DGND"/>
 <wire x1="48.26" y1="35.56" x2="45.72" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="35.56" x2="45.72" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="STM_CHIP" gate="A" pin="VSS_2"/>
+<pinref part="STMF401" gate="A" pin="VSS_2"/>
 <wire x1="45.72" y1="33.02" x2="45.72" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="33.02" x2="45.72" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="STM_CHIP" gate="A" pin="VSS_3"/>
+<pinref part="STMF401" gate="A" pin="VSS_3"/>
 <wire x1="48.26" y1="30.48" x2="45.72" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="30.48" x2="45.72" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="STM_CHIP" gate="A" pin="VSS_4"/>
+<pinref part="STMF401" gate="A" pin="VSS_4"/>
 <wire x1="45.72" y1="27.94" x2="48.26" y2="27.94" width="0.1524" layer="91"/>
 <junction x="45.72" y="30.48"/>
 <junction x="45.72" y="33.02"/>
 </segment>
 <segment>
-<pinref part="W5500-C2" gate="G$1" pin="2"/>
+<pinref part="C57" gate="G$1" pin="2"/>
 <pinref part="SUPPLY47" gate="G$1" pin="DGND"/>
 <wire x1="144.78" y1="203.2" x2="144.78" y2="205.74" width="0.1524" layer="91"/>
-<pinref part="W5500-C1" gate="G$1" pin="2"/>
+<pinref part="C54" gate="G$1" pin="2"/>
 <wire x1="129.54" y1="205.74" x2="144.78" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -27717,28 +27722,28 @@ http://www.ti.com&lt;p&gt;
 </segment>
 <segment>
 <pinref part="SUPPLY53" gate="G$1" pin="DGND"/>
-<pinref part="RW5500-2" gate="B" pin="2"/>
+<pinref part="R52" gate="B" pin="2"/>
 <wire x1="93.98" y1="320.04" x2="93.98" y2="312.42" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="312.42" x2="93.98" y2="304.8" width="0.1524" layer="91"/>
 <junction x="93.98" y="312.42"/>
-<pinref part="RW5500-2" gate="C" pin="2"/>
+<pinref part="R52" gate="C" pin="2"/>
 <wire x1="93.98" y1="304.8" x2="93.98" y2="297.18" width="0.1524" layer="91"/>
 <junction x="93.98" y="304.8"/>
-<pinref part="RW5500-2" gate="D" pin="2"/>
+<pinref part="R52" gate="D" pin="2"/>
 <wire x1="93.98" y1="297.18" x2="93.98" y2="294.64" width="0.1524" layer="91"/>
 <junction x="93.98" y="297.18"/>
-<pinref part="RW5500-2" gate="A" pin="2"/>
-<pinref part="RW5500-1" gate="A" pin="1"/>
+<pinref part="R52" gate="A" pin="2"/>
+<pinref part="R53" gate="A" pin="1"/>
 <wire x1="93.98" y1="320.04" x2="93.98" y2="327.66" width="0.1524" layer="91"/>
 <junction x="93.98" y="320.04"/>
 </segment>
 <segment>
-<pinref part="ETH-C1" gate="G$1" pin="1"/>
+<pinref part="C36" gate="G$1" pin="1"/>
 <pinref part="SUPPLY56" gate="G$1" pin="DGND"/>
 <wire x1="63.5" y1="378.46" x2="63.5" y2="381" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="ETH-C3" gate="G$1" pin="1"/>
+<pinref part="C30" gate="G$1" pin="1"/>
 <pinref part="SUPPLY57" gate="G$1" pin="DGND"/>
 <wire x1="63.5" y1="350.52" x2="63.5" y2="347.98" width="0.1524" layer="91"/>
 </segment>
@@ -27749,9 +27754,9 @@ http://www.ti.com&lt;p&gt;
 <wire x1="375.92" y1="187.96" x2="375.92" y2="172.72" width="0.2032" layer="91"/>
 </segment>
 <segment>
-<pinref part="ADE-C3" gate="G$1" pin="2"/>
+<pinref part="C73" gate="G$1" pin="2"/>
 <wire x1="347.98" y1="119.38" x2="347.98" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="ADE-C4" gate="G$1" pin="2"/>
+<pinref part="C74" gate="G$1" pin="2"/>
 <wire x1="347.98" y1="116.84" x2="355.6" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="116.84" x2="363.22" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="116.84" x2="363.22" y2="119.38" width="0.1524" layer="91"/>
@@ -27760,11 +27765,11 @@ http://www.ti.com&lt;p&gt;
 <junction x="355.6" y="116.84"/>
 </segment>
 <segment>
-<pinref part="SIM900-C1" gate="G$1" pin="-"/>
+<pinref part="C96" gate="G$1" pin="-"/>
 <pinref part="SUPPLY23" gate="G$1" pin="DGND"/>
 </segment>
 <segment>
-<pinref part="SIM900-C2" gate="G$1" pin="-"/>
+<pinref part="C97" gate="G$1" pin="-"/>
 <pinref part="SUPPLY24" gate="G$1" pin="DGND"/>
 </segment>
 <segment>
@@ -27788,10 +27793,10 @@ http://www.ti.com&lt;p&gt;
 <pinref part="SUPPLY32" gate="G$1" pin="DGND"/>
 </segment>
 <segment>
-<pinref part="SIM_C1" gate="G$1" pin="1"/>
+<pinref part="C80" gate="G$1" pin="1"/>
 <wire x1="167.64" y1="397.51" x2="167.64" y2="400.05" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="400.05" x2="185.42" y2="400.05" width="0.1524" layer="91"/>
-<pinref part="SIM_C2" gate="G$1" pin="1"/>
+<pinref part="C81" gate="G$1" pin="1"/>
 <wire x1="185.42" y1="397.51" x2="185.42" y2="400.05" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="400.05" x2="205.74" y2="400.05" width="0.1524" layer="91"/>
 <junction x="185.42" y="400.05"/>
@@ -27802,19 +27807,19 @@ http://www.ti.com&lt;p&gt;
 <wire x1="246.38" y1="383.54" x2="241.3" y2="383.54" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="383.54" x2="241.3" y2="381" width="0.1524" layer="91"/>
 <pinref part="SUPPLY22" gate="G$1" pin="DGND"/>
-<pinref part="U$6" gate="G$1" pin="GNDI"/>
+<pinref part="DCDC" gate="G$1" pin="GNDI"/>
 </segment>
 <segment>
 <wire x1="317.5" y1="383.54" x2="325.12" y2="383.54" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="383.54" x2="325.12" y2="381" width="0.1524" layer="91"/>
 <pinref part="SUPPLY26" gate="G$1" pin="DGND"/>
-<pinref part="U$6" gate="G$1" pin="GNDO"/>
+<pinref part="DCDC" gate="G$1" pin="GNDO"/>
 </segment>
 <segment>
 <pinref part="ADE-C5" gate="G$1" pin="-"/>
 <pinref part="SUPPLY17" gate="G$1" pin="DGND"/>
 <wire x1="330.2" y1="73.66" x2="330.2" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="ADE-C6" gate="G$1" pin="2"/>
+<pinref part="C70" gate="G$1" pin="2"/>
 <wire x1="330.2" y1="71.12" x2="330.2" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="73.66" x2="340.36" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="71.12" x2="330.2" y2="71.12" width="0.1524" layer="91"/>
@@ -27827,18 +27832,18 @@ http://www.ti.com&lt;p&gt;
 </segment>
 <segment>
 <pinref part="SUPPLY94" gate="G$1" pin="DGND"/>
-<pinref part="W5500-C5" gate="G$1" pin="2"/>
+<pinref part="C56" gate="G$1" pin="2"/>
 <wire x1="106.68" y1="200.66" x2="106.68" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="W5500-C13" gate="G$1" pin="-"/>
 <wire x1="116.84" y1="203.2" x2="106.68" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SIM900-T3" gate="G$1" pin="E"/>
+<pinref part="T3" gate="G$1" pin="E"/>
 <wire x1="313.69" y1="203.2" x2="313.69" y2="205.74" width="0.1524" layer="91"/>
 <pinref part="SUPPLY78" gate="G$1" pin="DGND"/>
 </segment>
 <segment>
-<pinref part="SYS-C3" gate="G$1" pin="2"/>
+<pinref part="C10" gate="G$1" pin="2"/>
 <pinref part="SUPPLY102" gate="G$1" pin="DGND"/>
 <wire x1="406.4" y1="121.92" x2="406.4" y2="116.84" width="0.1524" layer="91"/>
 </segment>
@@ -27853,9 +27858,9 @@ http://www.ti.com&lt;p&gt;
 <wire x1="360.68" y1="259.08" x2="363.22" y2="259.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SIM900-T2" gate="G$1" pin="E"/>
+<pinref part="T2" gate="G$1" pin="E"/>
 <wire x1="312.42" y1="266.7" x2="312.42" y2="256.54" width="0.1524" layer="91"/>
-<pinref part="SIM900-R9" gate="G$1" pin="2"/>
+<pinref part="R90" gate="G$1" pin="2"/>
 <wire x1="312.42" y1="256.54" x2="312.42" y2="254" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="259.08" x2="304.8" y2="256.54" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="256.54" x2="312.42" y2="256.54" width="0.1524" layer="91"/>
@@ -27863,9 +27868,9 @@ http://www.ti.com&lt;p&gt;
 <pinref part="SUPPLY30" gate="G$1" pin="DGND"/>
 </segment>
 <segment>
-<pinref part="SIM900-T1" gate="G$1" pin="E"/>
+<pinref part="T1" gate="G$1" pin="E"/>
 <wire x1="312.42" y1="330.2" x2="312.42" y2="320.04" width="0.1524" layer="91"/>
-<pinref part="SIM900-R6" gate="G$1" pin="2"/>
+<pinref part="R96" gate="G$1" pin="2"/>
 <wire x1="312.42" y1="320.04" x2="312.42" y2="317.5" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="322.58" x2="304.8" y2="320.04" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="320.04" x2="312.42" y2="320.04" width="0.1524" layer="91"/>
@@ -27954,11 +27959,11 @@ http://www.ti.com&lt;p&gt;
 <pinref part="SUPPLY36" gate="G$1" pin="DGND"/>
 </segment>
 <segment>
-<pinref part="W5500-C3" gate="G$1" pin="2"/>
+<pinref part="C52" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="190.5" x2="78.74" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="W5500-R11" gate="G$1" pin="1"/>
+<pinref part="R50" gate="G$1" pin="1"/>
 <wire x1="78.74" y1="187.96" x2="88.9" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="W5500-C4" gate="G$1" pin="2"/>
+<pinref part="C55" gate="G$1" pin="2"/>
 <wire x1="88.9" y1="187.96" x2="101.6" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="190.5" x2="88.9" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="187.96" x2="88.9" y2="185.42" width="0.1524" layer="91"/>
@@ -27978,19 +27983,19 @@ http://www.ti.com&lt;p&gt;
 <pinref part="SUPPLY43" gate="G$1" pin="DGND"/>
 </segment>
 <segment>
-<pinref part="W5500-C6" gate="G$1" pin="2"/>
+<pinref part="C35" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="162.56" x2="25.4" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="SUPPLY50" gate="G$1" pin="DGND"/>
-<pinref part="W5500-C10" gate="G$1" pin="2"/>
-<pinref part="W5500-C11" gate="G$1" pin="2"/>
+<pinref part="C51" gate="G$1" pin="2"/>
+<pinref part="C53" gate="G$1" pin="2"/>
 <wire x1="66.04" y1="165.1" x2="76.2" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="W5500-C12" gate="G$1" pin="-"/>
+<pinref part="C37" gate="G$1" pin="-"/>
 <wire x1="76.2" y1="165.1" x2="86.36" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="W5500-C9" gate="G$1" pin="2"/>
+<pinref part="C50" gate="G$1" pin="2"/>
 <wire x1="66.04" y1="165.1" x2="55.88" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="W5500-C8" gate="G$1" pin="2"/>
+<pinref part="C31" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="165.1" x2="45.72" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="W5500-C7" gate="G$1" pin="2"/>
+<pinref part="C33" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="165.1" x2="35.56" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="165.1" x2="25.4" y2="165.1" width="0.1524" layer="91"/>
 </segment>
@@ -28022,11 +28027,11 @@ http://www.ti.com&lt;p&gt;
 <segment>
 <pinref part="SUPPLY80" gate="G$1" pin="DGND"/>
 <wire x1="429.26" y1="81.28" x2="449.58" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="U$13" gate="G$1" pin="LCD_GND"/>
+<pinref part="LCD14" gate="G$1" pin="LCD_GND"/>
 </segment>
 <segment>
 <pinref part="SUPPLY4" gate="G$1" pin="DGND"/>
-<pinref part="W5500-R12" gate="G$1" pin="1"/>
+<pinref part="R31" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="213.36" x2="25.4" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -28046,9 +28051,9 @@ http://www.ti.com&lt;p&gt;
 <pinref part="SUPPLY3" gate="G$1" pin="DGND"/>
 </segment>
 <segment>
-<pinref part="STM-C2" gate="G$1" pin="1"/>
+<pinref part="C22" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="85.09" x2="140.97" y2="85.09" width="0.1524" layer="91"/>
-<pinref part="STM-C3" gate="G$1" pin="1"/>
+<pinref part="C21" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="80.01" x2="140.97" y2="80.01" width="0.1524" layer="91"/>
 <wire x1="140.97" y1="85.09" x2="140.97" y2="80.01" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="G$1" pin="DGND"/>
@@ -28066,39 +28071,39 @@ http://www.ti.com&lt;p&gt;
 </segment>
 <segment>
 <pinref part="SUPPLY74" gate="G$1" pin="DGND"/>
-<pinref part="U$7" gate="G$1" pin="GND@0"/>
+<pinref part="ANT1" gate="G$1" pin="GND@0"/>
 <wire x1="193.04" y1="337.82" x2="193.04" y2="340.36" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="340.36" x2="195.58" y2="340.36" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="GND@1"/>
+<pinref part="ANT1" gate="G$1" pin="GND@1"/>
 <wire x1="195.58" y1="337.82" x2="193.04" y2="337.82" width="0.1524" layer="91"/>
 <junction x="193.04" y="337.82"/>
 </segment>
 <segment>
-<pinref part="U$8" gate="G$1" pin="GND$1"/>
+<pinref part="SIMHOLDER" gate="G$1" pin="GND$1"/>
 <pinref part="SUPPLY73" gate="G$1" pin="DGND"/>
 <wire x1="215.9" y1="378.46" x2="218.44" y2="378.46" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="378.46" x2="218.44" y2="375.92" width="0.1524" layer="91"/>
-<pinref part="U$8" gate="G$1" pin="GND$2"/>
+<pinref part="SIMHOLDER" gate="G$1" pin="GND$2"/>
 <wire x1="218.44" y1="375.92" x2="218.44" y2="373.38" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="375.92" x2="218.44" y2="375.92" width="0.1524" layer="91"/>
 <junction x="218.44" y="375.92"/>
 </segment>
 <segment>
-<pinref part="U$8" gate="G$1" pin="SIM_GND"/>
+<pinref part="SIMHOLDER" gate="G$1" pin="SIM_GND"/>
 <wire x1="177.8" y1="375.92" x2="154.94" y2="375.92" width="0.1524" layer="91"/>
 <pinref part="SUPPLY99" gate="G$1" pin="DGND"/>
 </segment>
 <segment>
 <pinref part="SUPPLY21" gate="G$1" pin="DGND"/>
-<pinref part="U$13" gate="G$1" pin="T_CS"/>
+<pinref part="LCD14" gate="G$1" pin="T_CS"/>
 <wire x1="363.22" y1="78.74" x2="383.54" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="GPIO15"/>
+<pinref part="ESP" gate="G$1" pin="GPIO15"/>
 <pinref part="SUPPLY75" gate="G$1" pin="DGND"/>
 <wire x1="378.46" y1="325.12" x2="383.54" y2="325.12" width="0.1524" layer="91"/>
 <wire x1="383.54" y1="325.12" x2="383.54" y2="322.58" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="GND"/>
+<pinref part="ESP" gate="G$1" pin="GND"/>
 <wire x1="383.54" y1="322.58" x2="383.54" y2="320.04" width="0.1524" layer="91"/>
 <wire x1="378.46" y1="322.58" x2="383.54" y2="322.58" width="0.1524" layer="91"/>
 <junction x="383.54" y="322.58"/>
@@ -28115,27 +28120,27 @@ http://www.ti.com&lt;p&gt;
 <pinref part="SUPPLY76" gate="G$1" pin="DGND"/>
 </segment>
 <segment>
-<pinref part="CC_C8" gate="G$1" pin="2"/>
+<pinref part="C43" gate="G$1" pin="2"/>
 <pinref part="SUPPLY113" gate="G$1" pin="DGND"/>
 </segment>
 <segment>
-<pinref part="CC_C20" gate="G$1" pin="2"/>
+<pinref part="C41" gate="G$1" pin="2"/>
 <pinref part="SUPPLY114" gate="G$1" pin="DGND"/>
 </segment>
 <segment>
-<pinref part="CC_C14" gate="G$1" pin="2"/>
+<pinref part="C46" gate="G$1" pin="2"/>
 <pinref part="SUPPLY115" gate="G$1" pin="DGND"/>
 </segment>
 <segment>
-<pinref part="CC_DCOUP" gate="G$1" pin="2"/>
+<pinref part="C40" gate="G$1" pin="2"/>
 <pinref part="SUPPLY116" gate="G$1" pin="DGND"/>
 </segment>
 <segment>
-<pinref part="CC_CX1" gate="G$1" pin="2"/>
+<pinref part="C44" gate="G$1" pin="2"/>
 <pinref part="SUPPLY118" gate="G$1" pin="DGND"/>
 <wire x1="495.3" y1="66.04" x2="502.92" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="502.92" y1="66.04" x2="502.92" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="CC_CX2" gate="G$1" pin="2"/>
+<pinref part="C45" gate="G$1" pin="2"/>
 <wire x1="510.54" y1="66.04" x2="502.92" y2="66.04" width="0.1524" layer="91"/>
 <junction x="502.92" y="66.04"/>
 </segment>
@@ -28150,10 +28155,10 @@ http://www.ti.com&lt;p&gt;
 <wire x1="596.9" y1="109.22" x2="599.44" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="GND@1"/>
+<pinref part="ANT2" gate="G$1" pin="GND@1"/>
 <pinref part="SUPPLY121" gate="G$1" pin="DGND"/>
 <wire x1="614.68" y1="121.92" x2="617.22" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="GND@0"/>
+<pinref part="ANT2" gate="G$1" pin="GND@0"/>
 <wire x1="617.22" y1="121.92" x2="622.3" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="614.68" y1="119.38" x2="617.22" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="617.22" y1="119.38" x2="617.22" y2="121.92" width="0.1524" layer="91"/>
@@ -28172,7 +28177,7 @@ http://www.ti.com&lt;p&gt;
 <segment>
 <pinref part="SUPPLY85" gate="G$1" pin="DGND"/>
 <wire x1="360.68" y1="38.1" x2="360.68" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="SYS-L1" gate="L" pin="2"/>
+<pinref part="L1" gate="L" pin="2"/>
 <wire x1="355.6" y1="38.1" x2="360.68" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -28188,35 +28193,43 @@ http://www.ti.com&lt;p&gt;
 <wire x1="337.82" y1="363.22" x2="337.82" y2="360.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="GND"/>
+<pinref part="HLK-PM01" gate="G$1" pin="GND"/>
 <wire x1="195.58" y1="139.7" x2="205.74" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="SUPPLY42" gate="G$1" pin="DGND"/>
 </segment>
 <segment>
-<pinref part="U$16" gate="G$1" pin="P$5"/>
+<pinref part="RJ-1" gate="G$1" pin="P$5"/>
 <pinref part="SUPPLY128" gate="G$1" pin="DGND"/>
 <wire x1="218.44" y1="58.42" x2="213.36" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$15" gate="G$1" pin="P$5"/>
+<pinref part="RJ-2" gate="G$1" pin="P$5"/>
 <pinref part="SUPPLY130" gate="G$1" pin="DGND"/>
 <wire x1="218.44" y1="88.9" x2="213.36" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$14" gate="G$1" pin="P$5"/>
+<pinref part="RJ-3" gate="G$1" pin="P$5"/>
 <pinref part="SUPPLY132" gate="G$1" pin="DGND"/>
 <wire x1="218.44" y1="121.92" x2="213.36" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LCD_C1" gate="G$1" pin="2"/>
+<pinref part="SUPPLY129" gate="G$1" pin="DGND"/>
+</segment>
+<segment>
+<pinref part="C28" gate="G$1" pin="2"/>
+<pinref part="SUPPLY131" gate="G$1" pin="DGND"/>
 </segment>
 </net>
 <net name="VDD" class="0">
 <segment>
 <pinref part="SUPPLY8" gate="G$1" pin="VDD"/>
-<pinref part="STM-C10" gate="G$1" pin="1"/>
+<pinref part="C24" gate="G$1" pin="1"/>
 <wire x1="147.32" y1="43.18" x2="147.32" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="STM-C13" gate="G$1" pin="1"/>
-<pinref part="STM-C12" gate="G$1" pin="1"/>
+<pinref part="C27" gate="G$1" pin="1"/>
 <wire x1="177.8" y1="40.64" x2="167.64" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="STM-C11" gate="G$1" pin="1"/>
+<pinref part="C26" gate="G$1" pin="1"/>
 <wire x1="167.64" y1="40.64" x2="157.48" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="40.64" x2="147.32" y2="40.64" width="0.1524" layer="91"/>
 <junction x="157.48" y="40.64"/>
@@ -28224,25 +28237,25 @@ http://www.ti.com&lt;p&gt;
 <junction x="147.32" y="40.64"/>
 </segment>
 <segment>
-<pinref part="STM-C1" gate="G$1" pin="2"/>
+<pinref part="C23" gate="G$1" pin="2"/>
 <wire x1="20.32" y1="124.46" x2="20.32" y2="127" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="127" x2="27.94" y2="127" width="0.1524" layer="91"/>
 <pinref part="SUPPLY15" gate="G$1" pin="VDD"/>
 <wire x1="20.32" y1="127" x2="20.32" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="STM_CHIP" gate="A" pin="VDD_1"/>
+<pinref part="STMF401" gate="A" pin="VDD_1"/>
 <wire x1="48.26" y1="121.92" x2="27.94" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="121.92" x2="27.94" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="STM_CHIP" gate="A" pin="VDD_2"/>
+<pinref part="STMF401" gate="A" pin="VDD_2"/>
 <wire x1="27.94" y1="124.46" x2="27.94" y2="127" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="119.38" x2="27.94" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="119.38" x2="27.94" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="STM_CHIP" gate="A" pin="VDD_3"/>
+<pinref part="STMF401" gate="A" pin="VDD_3"/>
 <wire x1="48.26" y1="116.84" x2="27.94" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="116.84" x2="27.94" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="STM_CHIP" gate="A" pin="VDD_4"/>
+<pinref part="STMF401" gate="A" pin="VDD_4"/>
 <wire x1="48.26" y1="114.3" x2="27.94" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="114.3" x2="27.94" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="STM-L1" gate="G$1" pin="1"/>
+<pinref part="L3" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="124.46" x2="30.48" y2="124.46" width="0.1524" layer="91"/>
 <junction x="27.94" y="116.84"/>
 <junction x="27.94" y="119.38"/>
@@ -28261,29 +28274,29 @@ http://www.ti.com&lt;p&gt;
 <wire x1="99.06" y1="386.08" x2="96.52" y2="386.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="W5500-C5" gate="G$1" pin="1"/>
+<pinref part="C56" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="213.36" x2="106.68" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="SUPPLY97" gate="G$1" pin="VDD"/>
 <pinref part="W5500-C13" gate="G$1" pin="+"/>
 <wire x1="116.84" y1="210.82" x2="106.68" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SYS-R2" gate="G$1" pin="1"/>
+<pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="408.94" y1="132.08" x2="406.4" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="406.4" y1="132.08" x2="398.78" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="398.78" y1="132.08" x2="398.78" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="SYS-C3" gate="G$1" pin="1"/>
+<pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="406.4" y1="129.54" x2="406.4" y2="132.08" width="0.1524" layer="91"/>
 <junction x="406.4" y="132.08"/>
 <pinref part="SUPPLY103" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
-<pinref part="SIM900-R4" gate="G$1" pin="2"/>
+<pinref part="R94" gate="G$1" pin="2"/>
 <wire x1="312.42" y1="364.49" x2="312.42" y2="365.76" width="0.1524" layer="91"/>
 <pinref part="SUPPLY109" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
-<pinref part="SIM900-R7" gate="G$1" pin="2"/>
+<pinref part="R92" gate="G$1" pin="2"/>
 <pinref part="SUPPLY110" gate="G$1" pin="VDD"/>
 <wire x1="312.42" y1="302.26" x2="312.42" y2="299.72" width="0.1524" layer="91"/>
 </segment>
@@ -28327,10 +28340,10 @@ http://www.ti.com&lt;p&gt;
 <wire x1="436.88" y1="78.74" x2="436.88" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="SUPPLY92" gate="G$1" pin="VDD"/>
 <wire x1="436.88" y1="71.12" x2="441.96" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="U$13" gate="G$1" pin="LCD_VCC"/>
+<pinref part="LCD14" gate="G$1" pin="LCD_VCC"/>
 </segment>
 <segment>
-<pinref part="W5500-R13" gate="G$1" pin="2"/>
+<pinref part="R54" gate="G$1" pin="2"/>
 <pinref part="SUPPLY7" gate="G$1" pin="VDD"/>
 <wire x1="127" y1="256.54" x2="121.92" y2="256.54" width="0.1524" layer="91"/>
 </segment>
@@ -28347,7 +28360,7 @@ http://www.ti.com&lt;p&gt;
 <wire x1="115.57" y1="179.07" x2="115.57" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="PWR-SWT" gate="G$1" pin="1"/>
+<pinref part="PWR" gate="G$1" pin="1"/>
 <wire x1="340.36" y1="398.78" x2="334.01" y2="400.05" width="0.1524" layer="91"/>
 <pinref part="SUPPLY82" gate="G$1" pin="VDD"/>
 <wire x1="334.01" y1="400.05" x2="334.01" y2="401.32" width="0.1524" layer="91"/>
@@ -28358,23 +28371,23 @@ http://www.ti.com&lt;p&gt;
 <wire x1="462.28" y1="314.96" x2="464.82" y2="314.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SYS-L2" gate="L" pin="2"/>
+<pinref part="L2" gate="L" pin="2"/>
 <pinref part="SUPPLY77" gate="G$1" pin="VDD"/>
 <wire x1="256.54" y1="337.82" x2="259.08" y2="337.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="RW5500-1" gate="B" pin="1"/>
+<pinref part="R53" gate="B" pin="1"/>
 <wire x1="55.88" y1="294.64" x2="55.88" y2="287.02" width="0.1524" layer="91"/>
-<pinref part="RW5500-1" gate="C" pin="1"/>
+<pinref part="R53" gate="C" pin="1"/>
 <wire x1="55.88" y1="287.02" x2="55.88" y2="279.4" width="0.1524" layer="91"/>
 <junction x="55.88" y="287.02"/>
-<pinref part="RW5500-1" gate="D" pin="1"/>
+<pinref part="R53" gate="D" pin="1"/>
 <pinref part="SUPPLY51" gate="G$1" pin="VDD"/>
 <wire x1="55.88" y1="294.64" x2="55.88" y2="302.26" width="0.1524" layer="91"/>
 <junction x="55.88" y="294.64"/>
 </segment>
 <segment>
-<pinref part="RW5500-3" gate="G$1" pin="1"/>
+<pinref part="R51" gate="G$1" pin="1"/>
 <pinref part="SUPPLY52" gate="G$1" pin="VDD"/>
 <wire x1="96.52" y1="279.4" x2="101.6" y2="279.4" width="0.1524" layer="91"/>
 </segment>
@@ -28396,7 +28409,7 @@ http://www.ti.com&lt;p&gt;
 <wire x1="528.32" y1="50.8" x2="525.78" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="525.78" y1="50.8" x2="525.78" y2="53.34" width="0.1524" layer="91"/>
 <junction x="525.78" y="53.34"/>
-<pinref part="CC_C14" gate="G$1" pin="1"/>
+<pinref part="C46" gate="G$1" pin="1"/>
 <wire x1="520.7" y1="50.8" x2="525.78" y2="50.8" width="0.1524" layer="91"/>
 <junction x="525.78" y="50.8"/>
 </segment>
@@ -28413,10 +28426,10 @@ http://www.ti.com&lt;p&gt;
 <wire x1="563.88" y1="50.8" x2="566.42" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="566.42" y1="50.8" x2="566.42" y2="53.34" width="0.1524" layer="91"/>
 <junction x="566.42" y="53.34"/>
-<pinref part="CC_C8" gate="G$1" pin="1"/>
+<pinref part="C43" gate="G$1" pin="1"/>
 <wire x1="566.42" y1="50.8" x2="589.28" y2="50.8" width="0.1524" layer="91"/>
 <junction x="566.42" y="50.8"/>
-<pinref part="CC_C20" gate="G$1" pin="1"/>
+<pinref part="C41" gate="G$1" pin="1"/>
 <wire x1="571.5" y1="55.88" x2="601.98" y2="55.88" width="0.1524" layer="91"/>
 <junction x="571.5" y="55.88"/>
 </segment>
@@ -28427,12 +28440,17 @@ http://www.ti.com&lt;p&gt;
 <pinref part="SUPPLY117" gate="G$1" pin="VDD"/>
 <wire x1="566.42" y1="22.86" x2="568.96" y2="22.86" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="SUPPLY95" gate="G$1" pin="VDD"/>
+<pinref part="LCD_C1" gate="G$1" pin="1"/>
+<wire x1="469.9" y1="78.74" x2="469.9" y2="81.28" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SWD_NRST" class="0">
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="NRST"/>
+<pinref part="STMF401" gate="A" pin="NRST"/>
 <wire x1="109.22" y1="76.2" x2="139.7" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="STM-C8" gate="G$1" pin="1"/>
+<pinref part="C20" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="76.2" x2="142.24" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="76.2" x2="152.4" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="76.2" x2="165.1" y2="76.2" width="0.1524" layer="91"/>
@@ -28450,7 +28468,7 @@ http://www.ti.com&lt;p&gt;
 <label x="236.22" y="233.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$8" gate="G$1" pin="SIM_CLK"/>
+<pinref part="SIMHOLDER" gate="G$1" pin="SIM_CLK"/>
 <wire x1="177.8" y1="368.3" x2="170.18" y2="368.3" width="0.1524" layer="91"/>
 <label x="170.18" y="368.3" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
@@ -28462,15 +28480,15 @@ http://www.ti.com&lt;p&gt;
 <label x="236.22" y="238.76" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$8" gate="G$1" pin="SIM_RST"/>
+<pinref part="SIMHOLDER" gate="G$1" pin="SIM_RST"/>
 <wire x1="177.8" y1="373.38" x2="170.18" y2="373.38" width="0.1524" layer="91"/>
 <label x="170.18" y="373.38" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="USIM_VCC" class="0">
 <segment>
-<pinref part="SIM_C2" gate="G$1" pin="2"/>
-<pinref part="SIM_C1" gate="G$1" pin="2"/>
+<pinref part="C81" gate="G$1" pin="2"/>
+<pinref part="C80" gate="G$1" pin="2"/>
 <wire x1="185.42" y1="389.89" x2="167.64" y2="389.89" width="0.1524" layer="91"/>
 <label x="167.64" y="388.62" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
@@ -28486,7 +28504,7 @@ http://www.ti.com&lt;p&gt;
 <label x="236.22" y="223.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$8" gate="G$1" pin="SIM_VDD"/>
+<pinref part="SIMHOLDER" gate="G$1" pin="SIM_VDD"/>
 <wire x1="177.8" y1="378.46" x2="170.18" y2="378.46" width="0.1524" layer="91"/>
 <label x="170.18" y="378.46" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
@@ -28498,7 +28516,7 @@ http://www.ti.com&lt;p&gt;
 <label x="236.22" y="228.6" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$8" gate="G$1" pin="SIM_IO"/>
+<pinref part="SIMHOLDER" gate="G$1" pin="SIM_IO"/>
 <wire x1="177.8" y1="365.76" x2="170.18" y2="365.76" width="0.1524" layer="91"/>
 <label x="170.18" y="365.76" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
@@ -28507,7 +28525,7 @@ http://www.ti.com&lt;p&gt;
 <segment>
 <wire x1="246.38" y1="398.78" x2="241.3" y2="398.78" width="0.1524" layer="91"/>
 <pinref part="SUPPLY105" gate="+5V" pin="+5V"/>
-<pinref part="U$6" gate="G$1" pin="VIN"/>
+<pinref part="DCDC" gate="G$1" pin="VIN"/>
 </segment>
 <segment>
 <pinref part="IC4" gate=".PWR" pin="DVDD"/>
@@ -28527,7 +28545,7 @@ http://www.ti.com&lt;p&gt;
 </segment>
 <segment>
 <pinref part="ADE-C5" gate="G$1" pin="+"/>
-<pinref part="ADE-C6" gate="G$1" pin="1"/>
+<pinref part="C70" gate="G$1" pin="1"/>
 <wire x1="330.2" y1="83.82" x2="330.2" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="81.28" x2="340.36" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="83.82" x2="330.2" y2="83.82" width="0.1524" layer="91"/>
@@ -28582,7 +28600,7 @@ http://www.ti.com&lt;p&gt;
 <pinref part="SUPPLY125" gate="+5V" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="VOUT"/>
+<pinref part="HLK-PM01" gate="G$1" pin="VOUT"/>
 <wire x1="195.58" y1="144.78" x2="205.74" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="SUPPLY41" gate="+5V" pin="+5V"/>
 </segment>
@@ -28622,7 +28640,7 @@ http://www.ti.com&lt;p&gt;
 <label x="167.64" y="281.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PA15"/>
+<pinref part="STMF401" gate="A" pin="PA15"/>
 <wire x1="48.26" y1="66.04" x2="45.72" y2="66.04" width="0.1524" layer="91"/>
 <label x="45.72" y="66.04" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
@@ -28634,7 +28652,7 @@ http://www.ti.com&lt;p&gt;
 <label x="167.64" y="279.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PC10"/>
+<pinref part="STMF401" gate="A" pin="PC10"/>
 <wire x1="109.22" y1="93.98" x2="111.76" y2="93.98" width="0.1524" layer="91"/>
 <label x="111.76" y="93.98" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -28643,7 +28661,7 @@ http://www.ti.com&lt;p&gt;
 <segment>
 <pinref part="IC1" gate="G$1" pin="RF_ANT"/>
 <wire x1="205.74" y1="317.5" x2="205.74" y2="345.44" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="SIGNAL"/>
+<pinref part="ANT1" gate="G$1" pin="SIGNAL"/>
 <wire x1="203.2" y1="345.44" x2="205.74" y2="345.44" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -28654,7 +28672,7 @@ http://www.ti.com&lt;p&gt;
 <label x="190.5" y="322.58" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SIM900-R5" gate="G$1" pin="2"/>
+<pinref part="R95" gate="G$1" pin="2"/>
 <wire x1="287.02" y1="335.28" x2="289.56" y2="335.28" width="0.1524" layer="91"/>
 <label x="287.02" y="335.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -28667,31 +28685,31 @@ http://www.ti.com&lt;p&gt;
 <label x="228.6" y="320.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SIM900-R8" gate="G$1" pin="2"/>
+<pinref part="R91" gate="G$1" pin="2"/>
 <wire x1="289.56" y1="271.78" x2="287.02" y2="271.78" width="0.1524" layer="91"/>
 <label x="287.02" y="271.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="SIM900-LED1" gate="G$1" pin="A"/>
-<pinref part="SIM900-R4" gate="G$1" pin="1"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="R94" gate="G$1" pin="1"/>
 <wire x1="312.42" y1="354.33" x2="312.42" y2="350.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="SIM900-LED1" gate="G$1" pin="C"/>
-<pinref part="SIM900-T1" gate="G$1" pin="C"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="T1" gate="G$1" pin="C"/>
 <wire x1="312.42" y1="340.36" x2="312.42" y2="342.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="SIM900-T1" gate="G$1" pin="B"/>
-<pinref part="SIM900-R5" gate="G$1" pin="1"/>
+<pinref part="T1" gate="G$1" pin="B"/>
+<pinref part="R95" gate="G$1" pin="1"/>
 <wire x1="299.72" y1="335.28" x2="304.8" y2="335.28" width="0.1524" layer="91"/>
-<pinref part="SIM900-R6" gate="G$1" pin="1"/>
+<pinref part="R96" gate="G$1" pin="1"/>
 <wire x1="304.8" y1="335.28" x2="307.34" y2="335.28" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="332.74" x2="304.8" y2="335.28" width="0.1524" layer="91"/>
 <junction x="304.8" y="335.28"/>
@@ -28699,24 +28717,24 @@ http://www.ti.com&lt;p&gt;
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="SIM900-LED2" gate="G$1" pin="A"/>
-<pinref part="SIM900-R7" gate="G$1" pin="1"/>
+<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="R92" gate="G$1" pin="1"/>
 <wire x1="312.42" y1="289.56" x2="312.42" y2="288.29" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="SIM900-LED2" gate="G$1" pin="C"/>
-<pinref part="SIM900-T2" gate="G$1" pin="C"/>
+<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="T2" gate="G$1" pin="C"/>
 <wire x1="312.42" y1="276.86" x2="312.42" y2="280.67" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="SIM900-T2" gate="G$1" pin="B"/>
-<pinref part="SIM900-R8" gate="G$1" pin="1"/>
+<pinref part="T2" gate="G$1" pin="B"/>
+<pinref part="R91" gate="G$1" pin="1"/>
 <wire x1="299.72" y1="271.78" x2="304.8" y2="271.78" width="0.1524" layer="91"/>
-<pinref part="SIM900-R9" gate="G$1" pin="1"/>
+<pinref part="R90" gate="G$1" pin="1"/>
 <wire x1="304.8" y1="271.78" x2="307.34" y2="271.78" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="269.24" x2="304.8" y2="271.78" width="0.1524" layer="91"/>
 <junction x="304.8" y="271.78"/>
@@ -28724,7 +28742,7 @@ http://www.ti.com&lt;p&gt;
 </net>
 <net name="SERIAL_TX" class="0">
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PA9"/>
+<pinref part="STMF401" gate="A" pin="PA9"/>
 <wire x1="45.72" y1="81.28" x2="48.26" y2="81.28" width="0.1524" layer="91"/>
 <label x="45.72" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -28736,7 +28754,7 @@ http://www.ti.com&lt;p&gt;
 </net>
 <net name="SERIAL_RX" class="0">
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PA10"/>
+<pinref part="STMF401" gate="A" pin="PA10"/>
 <wire x1="48.26" y1="78.74" x2="45.72" y2="78.74" width="0.1524" layer="91"/>
 <label x="45.72" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -28753,7 +28771,7 @@ http://www.ti.com&lt;p&gt;
 <label x="40.64" y="254" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ETH-R2" gate="G$1" pin="1"/>
+<pinref part="R34" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="398.78" x2="55.88" y2="391.16" width="0.1524" layer="91"/>
 <pinref part="ETHERNET" gate="G$1" pin="TX-"/>
 <wire x1="55.88" y1="391.16" x2="99.06" y2="391.16" width="0.1524" layer="91"/>
@@ -28768,7 +28786,7 @@ http://www.ti.com&lt;p&gt;
 </segment>
 <segment>
 <pinref part="ETHERNET" gate="G$1" pin="TX+"/>
-<pinref part="ETH-R1" gate="G$1" pin="1"/>
+<pinref part="R35" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="396.24" x2="48.26" y2="396.24" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="396.24" x2="48.26" y2="398.78" width="0.1524" layer="91"/>
 <label x="48.26" y="396.24" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -28781,8 +28799,8 @@ http://www.ti.com&lt;p&gt;
 <label x="40.64" y="243.84" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ETH-C4" gate="G$1" pin="2"/>
-<pinref part="ETH-R7" gate="G$1" pin="1"/>
+<pinref part="C34" gate="G$1" pin="2"/>
+<pinref part="R32" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="347.98" x2="78.74" y2="347.98" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="347.98" x2="73.66" y2="347.98" width="0.1524" layer="91"/>
 <label x="73.66" y="347.98" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -28795,10 +28813,10 @@ http://www.ti.com&lt;p&gt;
 <label x="40.64" y="241.3" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ETH-R6" gate="G$1" pin="2"/>
+<pinref part="R30" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="370.84" x2="73.66" y2="370.84" width="0.1524" layer="91"/>
 <label x="73.66" y="370.84" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="ETH-C2" gate="G$1" pin="2"/>
+<pinref part="C32" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="370.84" x2="83.82" y2="370.84" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -28806,7 +28824,7 @@ http://www.ti.com&lt;p&gt;
 <segment>
 <pinref part="U2" gate="G$1" pin="TOCAP"/>
 <wire x1="76.2" y1="210.82" x2="76.2" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="W5500-C3" gate="G$1" pin="1"/>
+<pinref part="C52" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="198.12" x2="78.74" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -28814,7 +28832,7 @@ http://www.ti.com&lt;p&gt;
 <segment>
 <pinref part="U2" gate="G$1" pin="1V2O"/>
 <wire x1="81.28" y1="210.82" x2="81.28" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="W5500-C4" gate="G$1" pin="1"/>
+<pinref part="C55" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="198.12" x2="88.9" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -28822,7 +28840,7 @@ http://www.ti.com&lt;p&gt;
 <segment>
 <pinref part="U2" gate="G$1" pin="RSVD@1"/>
 <wire x1="83.82" y1="210.82" x2="83.82" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="W5500-R11" gate="G$1" pin="2"/>
+<pinref part="R50" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="208.28" x2="101.6" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="208.28" x2="101.6" y2="198.12" width="0.1524" layer="91"/>
 </segment>
@@ -28857,11 +28875,11 @@ http://www.ti.com&lt;p&gt;
 <segment>
 <pinref part="U2" gate="G$1" pin="XO"/>
 <wire x1="101.6" y1="241.3" x2="144.78" y2="241.3" width="0.1524" layer="91"/>
-<pinref part="W5500-C2" gate="G$1" pin="1"/>
-<pinref part="W5500-XTAL" gate="G$1" pin="2"/>
+<pinref part="C57" gate="G$1" pin="1"/>
+<pinref part="XTAL2" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="231.14" x2="144.78" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="231.14" x2="144.78" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="W5500-R10" gate="G$1" pin="2"/>
+<pinref part="R56" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="238.76" x2="144.78" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="238.76" x2="144.78" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="241.3" x2="144.78" y2="238.76" width="0.1524" layer="91"/>
@@ -28869,7 +28887,7 @@ http://www.ti.com&lt;p&gt;
 </net>
 <net name="ETH_RSTN" class="0">
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PC6"/>
+<pinref part="STMF401" gate="A" pin="PC6"/>
 <wire x1="109.22" y1="104.14" x2="111.76" y2="104.14" width="0.1524" layer="91"/>
 <label x="111.76" y="104.14" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -28878,14 +28896,14 @@ http://www.ti.com&lt;p&gt;
 <wire x1="86.36" y1="279.4" x2="86.36" y2="269.24" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="269.24" x2="88.9" y2="269.24" width="0.1524" layer="91"/>
 <label x="88.9" y="269.24" size="1.27" layer="95" xref="yes"/>
-<pinref part="RW5500-3" gate="G$1" pin="2"/>
+<pinref part="R51" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$57" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="RSVD@2"/>
 <wire x1="83.82" y1="269.24" x2="83.82" y2="297.18" width="0.1524" layer="91"/>
-<pinref part="RW5500-2" gate="D" pin="1"/>
+<pinref part="R52" gate="D" pin="1"/>
 </segment>
 </net>
 <net name="N$58" class="0">
@@ -28893,7 +28911,7 @@ http://www.ti.com&lt;p&gt;
 <pinref part="U2" gate="G$1" pin="RSVD@3"/>
 <wire x1="81.28" y1="269.24" x2="81.28" y2="304.8" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="304.8" x2="83.82" y2="304.8" width="0.1524" layer="91"/>
-<pinref part="RW5500-2" gate="C" pin="1"/>
+<pinref part="R52" gate="C" pin="1"/>
 </segment>
 </net>
 <net name="N$59" class="0">
@@ -28901,7 +28919,7 @@ http://www.ti.com&lt;p&gt;
 <pinref part="U2" gate="G$1" pin="RSVD@4"/>
 <wire x1="83.82" y1="312.42" x2="78.74" y2="312.42" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="312.42" x2="78.74" y2="269.24" width="0.1524" layer="91"/>
-<pinref part="RW5500-2" gate="B" pin="1"/>
+<pinref part="R52" gate="B" pin="1"/>
 </segment>
 </net>
 <net name="N$60" class="0">
@@ -28909,14 +28927,14 @@ http://www.ti.com&lt;p&gt;
 <pinref part="U2" gate="G$1" pin="RSVD@5"/>
 <wire x1="83.82" y1="320.04" x2="76.2" y2="320.04" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="320.04" x2="76.2" y2="269.24" width="0.1524" layer="91"/>
-<pinref part="RW5500-2" gate="A" pin="1"/>
+<pinref part="R52" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="N$61" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="RSVD@6"/>
 <wire x1="73.66" y1="327.66" x2="73.66" y2="269.24" width="0.1524" layer="91"/>
-<pinref part="RW5500-1" gate="A" pin="2"/>
+<pinref part="R53" gate="A" pin="2"/>
 <wire x1="73.66" y1="327.66" x2="83.82" y2="327.66" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -28925,7 +28943,7 @@ http://www.ti.com&lt;p&gt;
 <pinref part="U2" gate="G$1" pin="PMODE2"/>
 <wire x1="66.04" y1="294.64" x2="71.12" y2="294.64" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="294.64" x2="71.12" y2="269.24" width="0.1524" layer="91"/>
-<pinref part="RW5500-1" gate="B" pin="2"/>
+<pinref part="R53" gate="B" pin="2"/>
 </segment>
 </net>
 <net name="N$63" class="0">
@@ -28933,14 +28951,14 @@ http://www.ti.com&lt;p&gt;
 <pinref part="U2" gate="G$1" pin="PMODE1"/>
 <wire x1="68.58" y1="269.24" x2="68.58" y2="287.02" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="287.02" x2="66.04" y2="287.02" width="0.1524" layer="91"/>
-<pinref part="RW5500-1" gate="C" pin="2"/>
+<pinref part="R53" gate="C" pin="2"/>
 </segment>
 </net>
 <net name="N$64" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="PMODE0"/>
 <wire x1="66.04" y1="279.4" x2="66.04" y2="269.24" width="0.1524" layer="91"/>
-<pinref part="RW5500-1" gate="D" pin="2"/>
+<pinref part="R53" gate="D" pin="2"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -28960,13 +28978,13 @@ http://www.ti.com&lt;p&gt;
 <net name="N$22" class="0">
 <segment>
 <pinref part="ETHERNET" gate="G$1" pin="RX+"/>
-<pinref part="ETH-C2" gate="G$1" pin="1"/>
+<pinref part="C32" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="370.84" x2="91.44" y2="370.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
-<pinref part="ETH-C4" gate="G$1" pin="1"/>
+<pinref part="C34" gate="G$1" pin="1"/>
 <wire x1="91.44" y1="347.98" x2="91.44" y2="365.76" width="0.1524" layer="91"/>
 <pinref part="ETHERNET" gate="G$1" pin="RX-"/>
 <wire x1="91.44" y1="365.76" x2="99.06" y2="365.76" width="0.1524" layer="91"/>
@@ -28977,21 +28995,21 @@ http://www.ti.com&lt;p&gt;
 <pinref part="ETHERNET" gate="G$1" pin="RCT"/>
 <wire x1="99.06" y1="368.3" x2="88.9" y2="368.3" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="368.3" x2="88.9" y2="358.14" width="0.1524" layer="91"/>
-<pinref part="ETH-R6" gate="G$1" pin="1"/>
-<pinref part="ETH-R7" gate="G$1" pin="2"/>
+<pinref part="R30" gate="G$1" pin="1"/>
+<pinref part="R32" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="358.14" x2="78.74" y2="360.68" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="358.14" x2="78.74" y2="358.14" width="0.1524" layer="91"/>
-<pinref part="ETH-C3" gate="G$1" pin="2"/>
+<pinref part="C30" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="358.14" x2="63.5" y2="358.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="ETH-R3" gate="G$1" pin="1"/>
+<pinref part="R33" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="398.78" x2="63.5" y2="393.7" width="0.1524" layer="91"/>
 <pinref part="ETHERNET" gate="G$1" pin="TCT"/>
 <wire x1="63.5" y1="393.7" x2="99.06" y2="393.7" width="0.1524" layer="91"/>
-<pinref part="ETH-C1" gate="G$1" pin="2"/>
+<pinref part="C36" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="388.62" x2="63.5" y2="393.7" width="0.1524" layer="91"/>
 <junction x="63.5" y="393.7"/>
 </segment>
@@ -29005,19 +29023,19 @@ http://www.ti.com&lt;p&gt;
 <segment>
 <wire x1="429.26" y1="96.52" x2="439.42" y2="96.52" width="0.1524" layer="91"/>
 <label x="439.42" y="96.52" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$13" gate="G$1" pin="LCD_LED"/>
+<pinref part="LCD14" gate="G$1" pin="LCD_LED"/>
 </segment>
 </net>
 <net name="LCD_D/C" class="0">
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PC4"/>
+<pinref part="STMF401" gate="A" pin="PC4"/>
 <wire x1="109.22" y1="109.22" x2="111.76" y2="109.22" width="0.1524" layer="91"/>
 <label x="111.76" y="109.22" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="429.26" y1="88.9" x2="439.42" y2="88.9" width="0.1524" layer="91"/>
 <label x="439.42" y="88.9" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$13" gate="G$1" pin="LCD_D/C"/>
+<pinref part="LCD14" gate="G$1" pin="LCD_D/C"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -29080,10 +29098,10 @@ http://www.ti.com&lt;p&gt;
 <net name="N$32" class="0">
 <segment>
 <pinref part="IC4" gate=".PWR" pin="REF"/>
-<pinref part="ADE-C2" gate="G$1" pin="1"/>
+<pinref part="C72" gate="G$1" pin="1"/>
 <wire x1="355.6" y1="170.18" x2="355.6" y2="172.72" width="0.2032" layer="91"/>
 <wire x1="355.6" y1="172.72" x2="345.44" y2="172.72" width="0.2032" layer="91"/>
-<pinref part="ADE-C1" gate="G$1" pin="1"/>
+<pinref part="C71" gate="G$1" pin="1"/>
 <wire x1="345.44" y1="172.72" x2="335.28" y2="172.72" width="0.2032" layer="91"/>
 <wire x1="345.44" y1="170.18" x2="345.44" y2="172.72" width="0.1524" layer="91"/>
 <junction x="345.44" y="172.72"/>
@@ -29094,7 +29112,7 @@ http://www.ti.com&lt;p&gt;
 <pinref part="IC4" gate=".CAL" pin="CLKIN"/>
 <pinref part="ADE-XTAL" gate="G$1" pin="1"/>
 <wire x1="340.36" y1="127" x2="347.98" y2="127" width="0.1524" layer="91"/>
-<pinref part="ADE-C3" gate="G$1" pin="1"/>
+<pinref part="C73" gate="G$1" pin="1"/>
 <wire x1="347.98" y1="127" x2="353.06" y2="127" width="0.1524" layer="91"/>
 <junction x="347.98" y="127"/>
 </segment>
@@ -29106,7 +29124,7 @@ http://www.ti.com&lt;p&gt;
 <wire x1="363.22" y1="129.54" x2="363.22" y2="127" width="0.1524" layer="91"/>
 <pinref part="ADE-XTAL" gate="G$1" pin="2"/>
 <wire x1="363.22" y1="127" x2="358.14" y2="127" width="0.1524" layer="91"/>
-<pinref part="ADE-C4" gate="G$1" pin="1"/>
+<pinref part="C74" gate="G$1" pin="1"/>
 <junction x="363.22" y="127"/>
 </segment>
 </net>
@@ -29117,7 +29135,7 @@ http://www.ti.com&lt;p&gt;
 <label x="307.34" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PB5"/>
+<pinref part="STMF401" gate="A" pin="PB5"/>
 <wire x1="48.26" y1="48.26" x2="45.72" y2="48.26" width="0.1524" layer="91"/>
 <label x="45.72" y="48.26" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
@@ -29129,7 +29147,7 @@ http://www.ti.com&lt;p&gt;
 <label x="307.34" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PB6"/>
+<pinref part="STMF401" gate="A" pin="PB6"/>
 <wire x1="48.26" y1="45.72" x2="45.72" y2="45.72" width="0.1524" layer="91"/>
 <label x="45.72" y="45.72" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
@@ -29141,7 +29159,7 @@ http://www.ti.com&lt;p&gt;
 <label x="307.34" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PB4"/>
+<pinref part="STMF401" gate="A" pin="PB4"/>
 <wire x1="48.26" y1="50.8" x2="45.72" y2="50.8" width="0.1524" layer="91"/>
 <label x="45.72" y="50.8" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
@@ -29153,7 +29171,7 @@ http://www.ti.com&lt;p&gt;
 <label x="307.34" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PB7"/>
+<pinref part="STMF401" gate="A" pin="PB7"/>
 <wire x1="45.72" y1="43.18" x2="48.26" y2="43.18" width="0.1524" layer="91"/>
 <label x="45.72" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -29165,7 +29183,7 @@ http://www.ti.com&lt;p&gt;
 <label x="342.9" y="142.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PB9"/>
+<pinref part="STMF401" gate="A" pin="PB9"/>
 <wire x1="111.76" y1="66.04" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
 <label x="111.76" y="66.04" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -29177,7 +29195,7 @@ http://www.ti.com&lt;p&gt;
 <label x="342.9" y="139.7" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PB8"/>
+<pinref part="STMF401" gate="A" pin="PB8"/>
 <wire x1="109.22" y1="68.58" x2="111.76" y2="68.58" width="0.1524" layer="91"/>
 <label x="111.76" y="68.58" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -29217,10 +29235,10 @@ http://www.ti.com&lt;p&gt;
 <wire x1="236.22" y1="76.2" x2="236.22" y2="73.66" width="0.1524" layer="91"/>
 <junction x="236.22" y="73.66"/>
 <wire x1="226.06" y1="73.66" x2="236.22" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="U$15" gate="G$1" pin="P$1"/>
+<pinref part="RJ-2" gate="G$1" pin="P$1"/>
 <wire x1="226.06" y1="73.66" x2="226.06" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="76.2" x2="223.52" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="U$15" gate="G$1" pin="P$2"/>
+<pinref part="RJ-2" gate="G$1" pin="P$2"/>
 <wire x1="223.52" y1="76.2" x2="213.36" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="78.74" x2="223.52" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="78.74" x2="223.52" y2="76.2" width="0.1524" layer="91"/>
@@ -29235,10 +29253,10 @@ http://www.ti.com&lt;p&gt;
 <wire x1="236.22" y1="45.72" x2="236.22" y2="43.18" width="0.1524" layer="91"/>
 <junction x="236.22" y="43.18"/>
 <wire x1="226.06" y1="43.18" x2="236.22" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="U$16" gate="G$1" pin="P$1"/>
+<pinref part="RJ-1" gate="G$1" pin="P$1"/>
 <wire x1="226.06" y1="43.18" x2="226.06" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="45.72" x2="223.52" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="U$16" gate="G$1" pin="P$2"/>
+<pinref part="RJ-1" gate="G$1" pin="P$2"/>
 <wire x1="223.52" y1="45.72" x2="213.36" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="48.26" x2="223.52" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="48.26" x2="223.52" y2="45.72" width="0.1524" layer="91"/>
@@ -29252,7 +29270,7 @@ http://www.ti.com&lt;p&gt;
 <label x="360.68" y="281.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PC0"/>
+<pinref part="STMF401" gate="A" pin="PC0"/>
 <wire x1="109.22" y1="119.38" x2="111.76" y2="119.38" width="0.1524" layer="91"/>
 <label x="111.76" y="119.38" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -29269,7 +29287,7 @@ http://www.ti.com&lt;p&gt;
 <label x="360.68" y="233.68" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PC2"/>
+<pinref part="STMF401" gate="A" pin="PC2"/>
 <wire x1="109.22" y1="114.3" x2="111.76" y2="114.3" width="0.1524" layer="91"/>
 <label x="111.76" y="114.3" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -29291,7 +29309,7 @@ http://www.ti.com&lt;p&gt;
 <label x="360.68" y="231.14" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PC3"/>
+<pinref part="STMF401" gate="A" pin="PC3"/>
 <wire x1="111.76" y1="111.76" x2="109.22" y2="111.76" width="0.1524" layer="91"/>
 <label x="111.76" y="111.76" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -29313,7 +29331,7 @@ http://www.ti.com&lt;p&gt;
 <label x="360.68" y="226.06" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PC1"/>
+<pinref part="STMF401" gate="A" pin="PC1"/>
 <wire x1="111.76" y1="116.84" x2="109.22" y2="116.84" width="0.1524" layer="91"/>
 <label x="111.76" y="116.84" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -29534,7 +29552,7 @@ http://www.ti.com&lt;p&gt;
 <label x="104.14" y="246.38" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PB13"/>
+<pinref part="STMF401" gate="A" pin="PB13"/>
 <wire x1="111.76" y1="55.88" x2="109.22" y2="55.88" width="0.1524" layer="91"/>
 <label x="111.76" y="55.88" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -29546,7 +29564,7 @@ http://www.ti.com&lt;p&gt;
 <label x="104.14" y="248.92" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PB14"/>
+<pinref part="STMF401" gate="A" pin="PB14"/>
 <wire x1="109.22" y1="53.34" x2="111.76" y2="53.34" width="0.1524" layer="91"/>
 <label x="111.76" y="53.34" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -29558,7 +29576,7 @@ http://www.ti.com&lt;p&gt;
 <label x="104.14" y="251.46" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PB15"/>
+<pinref part="STMF401" gate="A" pin="PB15"/>
 <wire x1="111.76" y1="50.8" x2="109.22" y2="50.8" width="0.1524" layer="91"/>
 <label x="111.76" y="50.8" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -29570,12 +29588,12 @@ http://www.ti.com&lt;p&gt;
 <pinref part="ESP_EXT" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="RXD"/>
+<pinref part="ESP" gate="G$1" pin="RXD"/>
 <wire x1="378.46" y1="337.82" x2="381" y2="337.82" width="0.1524" layer="91"/>
 <label x="381" y="337.82" size="1.27" layer="95" ratio="5" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP_ESP_RX" gate="G$1" pin="1"/>
+<pinref part="JRX" gate="G$1" pin="1"/>
 <wire x1="17.78" y1="101.6" x2="15.24" y2="101.6" width="0.1524" layer="91"/>
 <label x="15.24" y="101.6" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
@@ -29587,12 +29605,12 @@ http://www.ti.com&lt;p&gt;
 <pinref part="ESP_EXT" gate="G$1" pin="4"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="TXD"/>
+<pinref part="ESP" gate="G$1" pin="TXD"/>
 <wire x1="378.46" y1="340.36" x2="381" y2="340.36" width="0.1524" layer="91"/>
 <label x="381" y="340.36" size="1.27" layer="95" ratio="5" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP_ESP_TX" gate="G$1" pin="1"/>
+<pinref part="JTX" gate="G$1" pin="1"/>
 <wire x1="17.78" y1="93.98" x2="15.24" y2="93.98" width="0.1524" layer="91"/>
 <label x="15.24" y="93.98" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
@@ -29604,7 +29622,7 @@ http://www.ti.com&lt;p&gt;
 <label x="368.3" y="396.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="GPIO0"/>
+<pinref part="ESP" gate="G$1" pin="GPIO0"/>
 <wire x1="378.46" y1="330.2" x2="381" y2="330.2" width="0.1524" layer="91"/>
 <label x="381" y="330.2" size="1.27" layer="95" ratio="5" xref="yes"/>
 </segment>
@@ -29626,41 +29644,41 @@ http://www.ti.com&lt;p&gt;
 <pinref part="ESP_EXT" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="VCC"/>
+<pinref part="ESP" gate="G$1" pin="VCC"/>
 <wire x1="353.06" y1="322.58" x2="350.52" y2="322.58" width="0.1524" layer="91"/>
 <label x="350.52" y="322.58" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="CH_PD"/>
+<pinref part="ESP" gate="G$1" pin="CH_PD"/>
 <wire x1="353.06" y1="335.28" x2="350.52" y2="335.28" width="0.1524" layer="91"/>
 <label x="350.52" y="335.28" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="REST"/>
+<pinref part="ESP" gate="G$1" pin="REST"/>
 <wire x1="353.06" y1="340.36" x2="350.52" y2="340.36" width="0.1524" layer="91"/>
 <label x="350.52" y="340.36" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="GPIO2"/>
+<pinref part="ESP" gate="G$1" pin="GPIO2"/>
 <wire x1="378.46" y1="327.66" x2="381" y2="327.66" width="0.1524" layer="91"/>
 <label x="381" y="327.66" size="1.27" layer="95" ratio="5" xref="yes"/>
 </segment>
 </net>
 <net name="N$44" class="0">
 <segment>
-<pinref part="SIM900-R10" gate="G$1" pin="2"/>
-<pinref part="SIM900-T3" gate="G$1" pin="B"/>
+<pinref part="R93" gate="G$1" pin="2"/>
+<pinref part="T3" gate="G$1" pin="B"/>
 <wire x1="306.07" y1="210.82" x2="308.61" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SIM_PWRKEY" class="0">
 <segment>
-<pinref part="SIM900-R10" gate="G$1" pin="1"/>
+<pinref part="R93" gate="G$1" pin="1"/>
 <wire x1="295.91" y1="210.82" x2="293.37" y2="210.82" width="0.1524" layer="91"/>
 <label x="293.37" y="210.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PA8"/>
+<pinref part="STMF401" gate="A" pin="PA8"/>
 <wire x1="48.26" y1="83.82" x2="45.72" y2="83.82" width="0.1524" layer="91"/>
 <label x="45.72" y="83.82" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
@@ -29672,7 +29690,7 @@ http://www.ti.com&lt;p&gt;
 <label x="167.64" y="302.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SIM900-T3" gate="G$1" pin="C"/>
+<pinref part="T3" gate="G$1" pin="C"/>
 <wire x1="313.69" y1="215.9" x2="316.23" y2="215.9" width="0.1524" layer="91"/>
 <label x="316.23" y="215.9" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -29685,10 +29703,10 @@ http://www.ti.com&lt;p&gt;
 <wire x1="236.22" y1="88.9" x2="254" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="88.9" x2="236.22" y2="88.9" width="0.1524" layer="91"/>
 <junction x="236.22" y="88.9"/>
-<pinref part="U$15" gate="G$1" pin="P$4"/>
+<pinref part="RJ-2" gate="G$1" pin="P$4"/>
 <wire x1="226.06" y1="83.82" x2="226.06" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="83.82" x2="223.52" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="U$15" gate="G$1" pin="P$3"/>
+<pinref part="RJ-2" gate="G$1" pin="P$3"/>
 <wire x1="223.52" y1="83.82" x2="226.06" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="81.28" x2="223.52" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="81.28" x2="223.52" y2="83.82" width="0.1524" layer="91"/>
@@ -29703,10 +29721,10 @@ http://www.ti.com&lt;p&gt;
 <wire x1="236.22" y1="121.92" x2="254" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="121.92" x2="236.22" y2="121.92" width="0.1524" layer="91"/>
 <junction x="236.22" y="121.92"/>
-<pinref part="U$14" gate="G$1" pin="P$4"/>
+<pinref part="RJ-3" gate="G$1" pin="P$4"/>
 <wire x1="226.06" y1="121.92" x2="226.06" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="116.84" x2="223.52" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="U$14" gate="G$1" pin="P$3"/>
+<pinref part="RJ-3" gate="G$1" pin="P$3"/>
 <wire x1="223.52" y1="116.84" x2="213.36" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="114.3" x2="223.52" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="114.3" x2="223.52" y2="116.84" width="0.1524" layer="91"/>
@@ -29721,10 +29739,10 @@ http://www.ti.com&lt;p&gt;
 <wire x1="236.22" y1="106.68" x2="236.22" y2="109.22" width="0.1524" layer="91"/>
 <junction x="236.22" y="106.68"/>
 <wire x1="226.06" y1="106.68" x2="236.22" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="U$14" gate="G$1" pin="P$2"/>
+<pinref part="RJ-3" gate="G$1" pin="P$2"/>
 <wire x1="226.06" y1="106.68" x2="226.06" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="111.76" x2="223.52" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="U$14" gate="G$1" pin="P$1"/>
+<pinref part="RJ-3" gate="G$1" pin="P$1"/>
 <wire x1="223.52" y1="111.76" x2="213.36" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="109.22" x2="223.52" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="109.22" x2="223.52" y2="111.76" width="0.1524" layer="91"/>
@@ -29739,10 +29757,10 @@ http://www.ti.com&lt;p&gt;
 <wire x1="236.22" y1="58.42" x2="254" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="58.42" x2="236.22" y2="58.42" width="0.1524" layer="91"/>
 <junction x="236.22" y="58.42"/>
-<pinref part="U$16" gate="G$1" pin="P$4"/>
+<pinref part="RJ-1" gate="G$1" pin="P$4"/>
 <wire x1="226.06" y1="58.42" x2="226.06" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="53.34" x2="223.52" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="U$16" gate="G$1" pin="P$3"/>
+<pinref part="RJ-1" gate="G$1" pin="P$3"/>
 <wire x1="223.52" y1="53.34" x2="213.36" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="50.8" x2="223.52" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="50.8" x2="223.52" y2="53.34" width="0.1524" layer="91"/>
@@ -29753,7 +29771,7 @@ http://www.ti.com&lt;p&gt;
 <segment>
 <pinref part="ADE-R2" gate="G$1" pin="1"/>
 <wire x1="226.06" y1="182.88" x2="236.22" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="U$10" gate="G$1" pin="OA"/>
+<pinref part="TV16-2" gate="G$1" pin="OA"/>
 <pinref part="RTO2" gate="G$1" pin="2"/>
 <wire x1="236.22" y1="182.88" x2="243.84" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="180.34" x2="236.22" y2="182.88" width="0.1524" layer="91"/>
@@ -29762,24 +29780,24 @@ http://www.ti.com&lt;p&gt;
 </net>
 <net name="LCD_RESET" class="0">
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PC5"/>
+<pinref part="STMF401" gate="A" pin="PC5"/>
 <wire x1="109.22" y1="106.68" x2="111.76" y2="106.68" width="0.1524" layer="91"/>
 <label x="111.76" y="106.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="429.26" y1="86.36" x2="439.42" y2="86.36" width="0.1524" layer="91"/>
 <label x="439.42" y="86.36" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$13" gate="G$1" pin="LCD_RESET"/>
+<pinref part="LCD14" gate="G$1" pin="LCD_RESET"/>
 </segment>
 </net>
 <net name="SD_CS" class="0">
 <segment>
 <wire x1="383.54" y1="91.44" x2="375.92" y2="91.44" width="0.1524" layer="91"/>
 <label x="375.92" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$13" gate="G$1" pin="SD_CS"/>
+<pinref part="LCD14" gate="G$1" pin="SD_CS"/>
 </segment>
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PB3"/>
+<pinref part="STMF401" gate="A" pin="PB3"/>
 <wire x1="48.26" y1="53.34" x2="45.72" y2="53.34" width="0.1524" layer="91"/>
 <label x="45.72" y="53.34" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
@@ -29849,7 +29867,7 @@ http://www.ti.com&lt;p&gt;
 <pinref part="ADE-R1" gate="G$1" pin="1"/>
 <wire x1="238.76" y1="187.96" x2="238.76" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="198.12" x2="236.22" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="U$9" gate="G$1" pin="OA"/>
+<pinref part="TV16-1" gate="G$1" pin="OA"/>
 <pinref part="RTO1" gate="G$1" pin="2"/>
 <wire x1="236.22" y1="198.12" x2="226.06" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="195.58" x2="236.22" y2="198.12" width="0.1524" layer="91"/>
@@ -29870,9 +29888,9 @@ http://www.ti.com&lt;p&gt;
 <wire x1="231.14" y1="193.04" x2="231.14" y2="185.42" width="0.1524" layer="91"/>
 <junction x="231.14" y="177.8"/>
 <junction x="231.14" y="162.56"/>
-<pinref part="U$11" gate="G$1" pin="OB"/>
-<pinref part="U$10" gate="G$1" pin="OB"/>
-<pinref part="U$9" gate="G$1" pin="OB"/>
+<pinref part="TV16-3" gate="G$1" pin="OB"/>
+<pinref part="TV16-2" gate="G$1" pin="OB"/>
+<pinref part="TV16-1" gate="G$1" pin="OB"/>
 <pinref part="RTO1" gate="G$1" pin="1"/>
 <wire x1="231.14" y1="185.42" x2="231.14" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="185.42" x2="231.14" y2="185.42" width="0.1524" layer="91"/>
@@ -29892,7 +29910,7 @@ http://www.ti.com&lt;p&gt;
 <wire x1="238.76" y1="167.64" x2="238.76" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="ADE-R3" gate="G$1" pin="1"/>
 <wire x1="238.76" y1="177.8" x2="248.92" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="U$11" gate="G$1" pin="OA"/>
+<pinref part="TV16-3" gate="G$1" pin="OA"/>
 <pinref part="RTO3" gate="G$1" pin="2"/>
 <wire x1="236.22" y1="165.1" x2="236.22" y2="167.64" width="0.1524" layer="91"/>
 <junction x="236.22" y="167.64"/>
@@ -29900,7 +29918,7 @@ http://www.ti.com&lt;p&gt;
 </net>
 <net name="SWD_TMS" class="0">
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PA13"/>
+<pinref part="STMF401" gate="A" pin="PA13"/>
 <wire x1="48.26" y1="71.12" x2="45.72" y2="71.12" width="0.1524" layer="91"/>
 <label x="45.72" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -29912,7 +29930,7 @@ http://www.ti.com&lt;p&gt;
 </net>
 <net name="SWD_TCK" class="0">
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PA14"/>
+<pinref part="STMF401" gate="A" pin="PA14"/>
 <wire x1="48.26" y1="68.58" x2="45.72" y2="68.58" width="0.1524" layer="91"/>
 <label x="45.72" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -29931,7 +29949,7 @@ http://www.ti.com&lt;p&gt;
 <pinref part="U$17" gate="G$1" pin="DATA"/>
 </segment>
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PD2"/>
+<pinref part="STMF401" gate="A" pin="PD2"/>
 <wire x1="109.22" y1="73.66" x2="111.76" y2="73.66" width="0.1524" layer="91"/>
 <label x="111.76" y="73.66" size="1.27" layer="95" ratio="5" xref="yes"/>
 </segment>
@@ -29939,19 +29957,19 @@ http://www.ti.com&lt;p&gt;
 <net name="N$51" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="EXRES1"/>
-<pinref part="W5500-R12" gate="G$1" pin="2"/>
+<pinref part="R31" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="231.14" x2="25.4" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="231.14" x2="25.4" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$66" class="0">
 <segment>
-<pinref part="W5500-C1" gate="G$1" pin="1"/>
-<pinref part="W5500-XTAL" gate="G$1" pin="1"/>
+<pinref part="C54" gate="G$1" pin="1"/>
+<pinref part="XTAL2" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="231.14" x2="129.54" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="231.14" x2="129.54" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="XI/CLKIN"/>
-<pinref part="W5500-R10" gate="G$1" pin="1"/>
+<pinref part="R56" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="238.76" x2="129.54" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="238.76" x2="132.08" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="231.14" x2="129.54" y2="238.76" width="0.1524" layer="91"/>
@@ -29959,7 +29977,7 @@ http://www.ti.com&lt;p&gt;
 </net>
 <net name="DC_VOUT" class="0">
 <segment>
-<pinref part="PWR-SWT" gate="G$1" pin="2"/>
+<pinref part="PWR" gate="G$1" pin="2"/>
 <wire x1="340.36" y1="388.62" x2="336.55" y2="387.35" width="0.1524" layer="91"/>
 <label x="336.55" y="387.35" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -29967,12 +29985,12 @@ http://www.ti.com&lt;p&gt;
 <wire x1="317.5" y1="398.78" x2="317.5" y2="397.51" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="397.51" x2="320.04" y2="397.51" width="0.1524" layer="91"/>
 <label x="320.04" y="397.51" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$6" gate="G$1" pin="VOUT"/>
+<pinref part="DCDC" gate="G$1" pin="VOUT"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="VLCD"/>
+<pinref part="STMF401" gate="A" pin="VLCD"/>
 <wire x1="48.26" y1="127" x2="46.99" y2="127" width="0.1524" layer="91"/>
 <label x="46.99" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="46.99" y1="127" x2="46.99" y2="134.62" width="0.1524" layer="91"/>
@@ -29985,23 +30003,23 @@ http://www.ti.com&lt;p&gt;
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PC14-OSC32_IN"/>
+<pinref part="STMF401" gate="A" pin="PC14-OSC32_IN"/>
 <wire x1="109.22" y1="83.82" x2="127" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="127" y1="83.82" x2="128.27" y2="85.09" width="0.1524" layer="91"/>
-<pinref part="STM-XTAL" gate="G$1" pin="2"/>
+<pinref part="XTAL1" gate="G$1" pin="2"/>
 <wire x1="128.27" y1="85.09" x2="129.54" y2="85.09" width="0.1524" layer="91"/>
-<pinref part="STM-C2" gate="G$1" pin="2"/>
+<pinref part="C22" gate="G$1" pin="2"/>
 <wire x1="129.54" y1="85.09" x2="132.08" y2="85.09" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PC15-OSC32_OUT"/>
+<pinref part="STMF401" gate="A" pin="PC15-OSC32_OUT"/>
 <wire x1="109.22" y1="81.28" x2="127" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="127" y1="81.28" x2="128.27" y2="80.01" width="0.1524" layer="91"/>
-<pinref part="STM-XTAL" gate="G$1" pin="1"/>
+<pinref part="XTAL1" gate="G$1" pin="1"/>
 <wire x1="128.27" y1="80.01" x2="129.54" y2="80.01" width="0.1524" layer="91"/>
-<pinref part="STM-C3" gate="G$1" pin="2"/>
+<pinref part="C21" gate="G$1" pin="2"/>
 <wire x1="129.54" y1="80.01" x2="132.08" y2="80.01" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -30196,61 +30214,61 @@ http://www.ti.com&lt;p&gt;
 <wire x1="213.36" y1="327.66" x2="215.9" y2="327.66" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="327.66" x2="215.9" y2="327.66" width="0.1524" layer="91"/>
 <junction x="215.9" y="327.66"/>
-<pinref part="SIM900-C1" gate="G$1" pin="+"/>
+<pinref part="C96" gate="G$1" pin="+"/>
 <wire x1="215.9" y1="337.82" x2="215.9" y2="327.66" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="337.82" x2="223.52" y2="337.82" width="0.1524" layer="91"/>
-<pinref part="SIM900-C2" gate="G$1" pin="+"/>
+<pinref part="C97" gate="G$1" pin="+"/>
 <wire x1="238.76" y1="337.82" x2="223.52" y2="337.82" width="0.1524" layer="91"/>
 <junction x="223.52" y="337.82"/>
-<pinref part="SYS-L2" gate="L" pin="1"/>
+<pinref part="L2" gate="L" pin="1"/>
 <wire x1="238.76" y1="337.82" x2="241.3" y2="337.82" width="0.1524" layer="91"/>
 <junction x="238.76" y="337.82"/>
 </segment>
 </net>
 <net name="N$71" class="0">
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PA2"/>
-<pinref part="JP_ESP_RX" gate="G$1" pin="2"/>
+<pinref part="STMF401" gate="A" pin="PA2"/>
+<pinref part="JRX" gate="G$1" pin="2"/>
 <wire x1="48.26" y1="99.06" x2="27.94" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="99.06" x2="27.94" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$72" class="0">
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PA3"/>
-<pinref part="JP_ESP_TX" gate="G$1" pin="2"/>
+<pinref part="STMF401" gate="A" pin="PA3"/>
+<pinref part="JTX" gate="G$1" pin="2"/>
 <wire x1="48.26" y1="96.52" x2="27.94" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="96.52" x2="27.94" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$73" class="0">
 <segment>
-<pinref part="U$11" gate="G$1" pin="IA"/>
+<pinref part="TV16-3" gate="G$1" pin="IA"/>
 <pinref part="RT3" gate="G$1" pin="2"/>
 <wire x1="203.2" y1="167.64" x2="205.74" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$74" class="0">
 <segment>
-<pinref part="U$10" gate="G$1" pin="IA"/>
+<pinref part="TV16-2" gate="G$1" pin="IA"/>
 <pinref part="RT2" gate="G$1" pin="2"/>
 <wire x1="203.2" y1="182.88" x2="205.74" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$75" class="0">
 <segment>
-<pinref part="U$9" gate="G$1" pin="IA"/>
+<pinref part="TV16-1" gate="G$1" pin="IA"/>
 <pinref part="RT1" gate="G$1" pin="2"/>
 <wire x1="203.2" y1="198.12" x2="205.74" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N" class="0">
 <segment>
-<pinref part="U$10" gate="G$1" pin="IB"/>
+<pinref part="TV16-2" gate="G$1" pin="IB"/>
 <wire x1="205.74" y1="177.8" x2="185.42" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="U$11" gate="G$1" pin="IB"/>
+<pinref part="TV16-3" gate="G$1" pin="IB"/>
 <wire x1="205.74" y1="162.56" x2="185.42" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="U$12" gate="G$1" pin="P$4"/>
+<pinref part="TERM_BLOCK" gate="G$1" pin="P$4"/>
 <wire x1="180.34" y1="182.88" x2="182.88" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="182.88" x2="185.42" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="182.88" x2="185.42" y2="177.8" width="0.1524" layer="91"/>
@@ -30259,12 +30277,12 @@ http://www.ti.com&lt;p&gt;
 <wire x1="182.88" y1="182.88" x2="182.88" y2="190.5" width="0.1524" layer="91"/>
 <junction x="182.88" y="182.88"/>
 <wire x1="182.88" y1="190.5" x2="203.2" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="U$9" gate="G$1" pin="IB"/>
+<pinref part="TV16-1" gate="G$1" pin="IB"/>
 <wire x1="205.74" y1="193.04" x2="203.2" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="190.5" x2="203.2" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="AC_IN$2"/>
+<pinref part="HLK-PM01" gate="G$1" pin="AC_IN$2"/>
 <wire x1="162.56" y1="139.7" x2="154.94" y2="139.7" width="0.1524" layer="91"/>
 <label x="154.94" y="139.7" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
@@ -30272,18 +30290,18 @@ http://www.ti.com&lt;p&gt;
 <net name="R" class="0">
 <segment>
 <pinref part="RT1" gate="G$1" pin="1"/>
-<pinref part="U$12" gate="G$1" pin="P$1"/>
+<pinref part="TERM_BLOCK" gate="G$1" pin="P$1"/>
 <wire x1="193.04" y1="198.12" x2="180.34" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="AC_IN$1"/>
+<pinref part="HLK-PM01" gate="G$1" pin="AC_IN$1"/>
 <wire x1="162.56" y1="144.78" x2="154.94" y2="144.78" width="0.1524" layer="91"/>
 <label x="154.94" y="144.78" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="S" class="0">
 <segment>
-<pinref part="U$12" gate="G$1" pin="P$2"/>
+<pinref part="TERM_BLOCK" gate="G$1" pin="P$2"/>
 <wire x1="180.34" y1="193.04" x2="190.5" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="193.04" x2="190.5" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="RT2" gate="G$1" pin="1"/>
@@ -30292,7 +30310,7 @@ http://www.ti.com&lt;p&gt;
 </net>
 <net name="T" class="0">
 <segment>
-<pinref part="U$12" gate="G$1" pin="P$3"/>
+<pinref part="TERM_BLOCK" gate="G$1" pin="P$3"/>
 <wire x1="180.34" y1="187.96" x2="187.96" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="187.96" x2="187.96" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="RT3" gate="G$1" pin="1"/>
@@ -30313,55 +30331,55 @@ http://www.ti.com&lt;p&gt;
 <junction x="414.02" y="365.76"/>
 </segment>
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PB0"/>
-<wire x1="48.26" y1="60.96" x2="45.72" y2="60.96" width="0.1524" layer="91"/>
-<label x="45.72" y="60.96" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
+<pinref part="STMF401" gate="A" pin="PH1-_OSC_OUT"/>
+<wire x1="109.22" y1="124.46" x2="111.76" y2="124.46" width="0.1524" layer="91"/>
+<label x="111.76" y="124.46" size="1.27" layer="95" ratio="5" xref="yes"/>
 </segment>
 </net>
 <net name="T_IRQ" class="0">
 <segment>
-<pinref part="U$13" gate="G$1" pin="T_IRQ"/>
+<pinref part="LCD14" gate="G$1" pin="T_IRQ"/>
 <wire x1="383.54" y1="86.36" x2="375.92" y2="86.36" width="0.1524" layer="91"/>
 <label x="375.92" y="86.36" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PB2"/>
+<pinref part="STMF401" gate="A" pin="PB2"/>
 <wire x1="48.26" y1="55.88" x2="45.72" y2="55.88" width="0.1524" layer="91"/>
 <label x="45.72" y="55.88" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="T_DO" class="0">
 <segment>
-<pinref part="U$13" gate="G$1" pin="T_DO"/>
+<pinref part="LCD14" gate="G$1" pin="T_DO"/>
 <wire x1="383.54" y1="83.82" x2="375.92" y2="83.82" width="0.1524" layer="91"/>
 <label x="375.92" y="83.82" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PB11"/>
-<wire x1="109.22" y1="60.96" x2="111.76" y2="60.96" width="0.1524" layer="91"/>
-<label x="111.76" y="60.96" size="1.27" layer="95" ratio="5" xref="yes"/>
+<pinref part="STMF401" gate="A" pin="PB0"/>
+<wire x1="48.26" y1="60.96" x2="45.72" y2="60.96" width="0.1524" layer="91"/>
+<label x="45.72" y="60.96" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="T_DIN" class="0">
 <segment>
-<pinref part="U$13" gate="G$1" pin="T_DIN"/>
+<pinref part="LCD14" gate="G$1" pin="T_DIN"/>
 <wire x1="383.54" y1="81.28" x2="375.92" y2="81.28" width="0.1524" layer="91"/>
 <label x="375.92" y="81.28" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PB10"/>
+<pinref part="STMF401" gate="A" pin="PB10"/>
 <wire x1="109.22" y1="63.5" x2="111.76" y2="63.5" width="0.1524" layer="91"/>
 <label x="111.76" y="63.5" size="1.27" layer="95" ratio="5" xref="yes"/>
 </segment>
 </net>
 <net name="T_CLK" class="0">
 <segment>
-<pinref part="U$13" gate="G$1" pin="T_CLK"/>
+<pinref part="LCD14" gate="G$1" pin="T_CLK"/>
 <wire x1="383.54" y1="76.2" x2="375.92" y2="76.2" width="0.1524" layer="91"/>
 <label x="375.92" y="76.2" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PB1"/>
+<pinref part="STMF401" gate="A" pin="PB1"/>
 <wire x1="48.26" y1="58.42" x2="45.72" y2="58.42" width="0.1524" layer="91"/>
 <label x="45.72" y="58.42" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
@@ -30376,7 +30394,7 @@ http://www.ti.com&lt;p&gt;
 <net name="N$43" class="0">
 <segment>
 <pinref part="U$4" gate="P" pin="DCOUPL"/>
-<pinref part="CC_DCOUP" gate="G$1" pin="1"/>
+<pinref part="C40" gate="G$1" pin="1"/>
 <wire x1="563.88" y1="45.72" x2="571.5" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -30386,7 +30404,7 @@ http://www.ti.com&lt;p&gt;
 <pinref part="X1" gate="G$1" pin="1"/>
 <wire x1="525.78" y1="83.82" x2="497.84" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="497.84" y1="83.82" x2="497.84" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="CC_CX1" gate="G$1" pin="1"/>
+<pinref part="C44" gate="G$1" pin="1"/>
 <wire x1="497.84" y1="78.74" x2="495.3" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="495.3" y1="78.74" x2="495.3" y2="73.66" width="0.1524" layer="91"/>
 <junction x="497.84" y="78.74"/>
@@ -30397,7 +30415,7 @@ http://www.ti.com&lt;p&gt;
 <pinref part="U$4" gate="S" pin="XOSC32M-Q2"/>
 <pinref part="X1" gate="G$1" pin="2"/>
 <wire x1="525.78" y1="78.74" x2="510.54" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="CC_CX2" gate="G$1" pin="1"/>
+<pinref part="C45" gate="G$1" pin="1"/>
 <wire x1="510.54" y1="78.74" x2="508" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="510.54" y1="73.66" x2="510.54" y2="78.74" width="0.1524" layer="91"/>
 <junction x="510.54" y="78.74"/>
@@ -30440,7 +30458,7 @@ http://www.ti.com&lt;p&gt;
 <label x="523.24" y="114.3" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PC11"/>
+<pinref part="STMF401" gate="A" pin="PC11"/>
 <wire x1="109.22" y1="91.44" x2="111.76" y2="91.44" width="0.1524" layer="91"/>
 <label x="111.76" y="91.44" size="1.27" layer="95" ratio="5" xref="yes"/>
 </segment>
@@ -30452,7 +30470,7 @@ http://www.ti.com&lt;p&gt;
 <label x="523.24" y="111.76" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PC13-RTC_AF1-WKUP2"/>
+<pinref part="STMF401" gate="A" pin="PC13-RTC_AF1-WKUP2"/>
 <wire x1="109.22" y1="86.36" x2="111.76" y2="86.36" width="0.1524" layer="91"/>
 <label x="111.76" y="86.36" size="1.27" layer="95" ratio="5" xref="yes"/>
 </segment>
@@ -30464,9 +30482,9 @@ http://www.ti.com&lt;p&gt;
 <label x="523.24" y="104.14" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PH1-_OSC_OUT"/>
-<wire x1="109.22" y1="124.46" x2="111.76" y2="124.46" width="0.1524" layer="91"/>
-<label x="111.76" y="124.46" size="1.27" layer="95" ratio="5" xref="yes"/>
+<pinref part="STMF401" gate="A" pin="PH0_-OSC_IN"/>
+<wire x1="109.22" y1="127" x2="111.76" y2="127" width="0.1524" layer="91"/>
+<label x="111.76" y="127" size="1.27" layer="95" ratio="5" xref="yes"/>
 </segment>
 </net>
 <net name="CC_GPIO1" class="0">
@@ -30476,7 +30494,7 @@ http://www.ti.com&lt;p&gt;
 <label x="523.24" y="101.6" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PC9"/>
+<pinref part="STMF401" gate="A" pin="PC9"/>
 <wire x1="109.22" y1="96.52" x2="111.76" y2="96.52" width="0.1524" layer="91"/>
 <label x="111.76" y="96.52" size="1.27" layer="95" ratio="5" xref="yes"/>
 </segment>
@@ -30488,7 +30506,7 @@ http://www.ti.com&lt;p&gt;
 <label x="523.24" y="99.06" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PC8"/>
+<pinref part="STMF401" gate="A" pin="PC8"/>
 <wire x1="109.22" y1="99.06" x2="111.76" y2="99.06" width="0.1524" layer="91"/>
 <label x="111.76" y="99.06" size="1.27" layer="95" ratio="5" xref="yes"/>
 </segment>
@@ -30500,7 +30518,7 @@ http://www.ti.com&lt;p&gt;
 <label x="523.24" y="96.52" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PC7"/>
+<pinref part="STMF401" gate="A" pin="PC7"/>
 <wire x1="109.22" y1="101.6" x2="111.76" y2="101.6" width="0.1524" layer="91"/>
 <label x="111.76" y="101.6" size="1.27" layer="95" ratio="5" xref="yes"/>
 </segment>
@@ -30512,7 +30530,7 @@ http://www.ti.com&lt;p&gt;
 <label x="523.24" y="93.98" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PA1"/>
+<pinref part="STMF401" gate="A" pin="PA1"/>
 <wire x1="48.26" y1="101.6" x2="45.72" y2="101.6" width="0.1524" layer="91"/>
 <label x="45.72" y="101.6" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
@@ -30524,7 +30542,7 @@ http://www.ti.com&lt;p&gt;
 <label x="523.24" y="91.44" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PA0-WKUP1"/>
+<pinref part="STMF401" gate="A" pin="PA0-WKUP1"/>
 <wire x1="48.26" y1="104.14" x2="45.72" y2="104.14" width="0.1524" layer="91"/>
 <label x="45.72" y="104.14" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
@@ -30536,7 +30554,7 @@ http://www.ti.com&lt;p&gt;
 <label x="523.24" y="116.84" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PC12"/>
+<pinref part="STMF401" gate="A" pin="PC12"/>
 <wire x1="109.22" y1="88.9" x2="111.76" y2="88.9" width="0.1524" layer="91"/>
 <label x="111.76" y="88.9" size="1.27" layer="95" ratio="5" xref="yes"/>
 </segment>
@@ -30544,13 +30562,13 @@ http://www.ti.com&lt;p&gt;
 <net name="N$83" class="0">
 <segment>
 <pinref part="B1" gate="G$1" pin="ANT"/>
-<pinref part="J1" gate="G$1" pin="SIGNAL"/>
+<pinref part="ANT2" gate="G$1" pin="SIGNAL"/>
 <wire x1="596.9" y1="114.3" x2="607.06" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USB_DP" class="0">
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PA12"/>
+<pinref part="STMF401" gate="A" pin="PA12"/>
 <wire x1="48.26" y1="73.66" x2="45.72" y2="73.66" width="0.1524" layer="91"/>
 <label x="45.72" y="73.66" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
@@ -30562,7 +30580,7 @@ http://www.ti.com&lt;p&gt;
 </net>
 <net name="USB_DM" class="0">
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="PA11"/>
+<pinref part="STMF401" gate="A" pin="PA11"/>
 <wire x1="48.26" y1="76.2" x2="45.72" y2="76.2" width="0.1524" layer="91"/>
 <label x="45.72" y="76.2" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
@@ -30574,8 +30592,15 @@ http://www.ti.com&lt;p&gt;
 </net>
 <net name="N$45" class="0">
 <segment>
-<pinref part="STM_CHIP" gate="A" pin="BOOT0"/>
+<pinref part="STMF401" gate="A" pin="BOOT0"/>
 <wire x1="48.26" y1="109.22" x2="45.72" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$77" class="0">
+<segment>
+<pinref part="STMF401" gate="A" pin="PB11"/>
+<wire x1="109.22" y1="60.96" x2="127" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="C28" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>

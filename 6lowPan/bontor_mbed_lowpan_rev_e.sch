@@ -26957,7 +26957,7 @@ http://www.ti.com&lt;p&gt;
 <part name="SUPPLY11" library="supply2" deviceset="DGND" device=""/>
 <part name="PWR-SWT" library="rcl" deviceset="R-EU_" device="R0402"/>
 <part name="SUPPLY82" library="supply2" deviceset="VDD" device=""/>
-<part name="S1" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="SMD"/>
+<part name="S1" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="PTH"/>
 <part name="BAT1" library="SparkFun-Electromechanical" deviceset="BATTERY" device="12MM"/>
 <part name="STM-XTAL" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="TC26H" value="32.768kHz"/>
 <part name="STM-C2" library="rcl" deviceset="C-EU" device="C0603" value="4.3pF"/>
@@ -27047,6 +27047,9 @@ http://www.ti.com&lt;p&gt;
 <part name="SUPPLY130" library="supply2" deviceset="DGND" device=""/>
 <part name="SUPPLY132" library="supply2" deviceset="DGND" device=""/>
 <part name="U$17" library="DHT11" deviceset="DHT11" device=""/>
+<part name="LCD_C1" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="SUPPLY95" library="supply2" deviceset="VDD" device=""/>
+<part name="SUPPLY129" library="supply2" deviceset="DGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -27373,6 +27376,9 @@ http://www.ti.com&lt;p&gt;
 <instance part="SUPPLY130" gate="G$1" x="218.44" y="86.36"/>
 <instance part="SUPPLY132" gate="G$1" x="218.44" y="119.38"/>
 <instance part="U$17" gate="G$1" x="462.28" y="391.16" rot="R270"/>
+<instance part="LCD_C1" gate="G$1" x="469.9" y="76.2" rot="MR0"/>
+<instance part="SUPPLY95" gate="G$1" x="469.9" y="83.82"/>
+<instance part="SUPPLY129" gate="G$1" x="469.9" y="68.58"/>
 </instances>
 <busses>
 </busses>
@@ -28207,6 +28213,10 @@ http://www.ti.com&lt;p&gt;
 <pinref part="SUPPLY132" gate="G$1" pin="DGND"/>
 <wire x1="218.44" y1="121.92" x2="213.36" y2="121.92" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="LCD_C1" gate="G$1" pin="2"/>
+<pinref part="SUPPLY129" gate="G$1" pin="DGND"/>
+</segment>
 </net>
 <net name="VDD" class="0">
 <segment>
@@ -28426,6 +28436,11 @@ http://www.ti.com&lt;p&gt;
 <wire x1="566.42" y1="40.64" x2="566.42" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="SUPPLY117" gate="G$1" pin="VDD"/>
 <wire x1="566.42" y1="22.86" x2="568.96" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY95" gate="G$1" pin="VDD"/>
+<pinref part="LCD_C1" gate="G$1" pin="1"/>
+<wire x1="469.9" y1="78.74" x2="469.9" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SWD_NRST" class="0">
