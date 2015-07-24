@@ -27379,7 +27379,7 @@ http://www.ti.com&lt;p&gt;
 <instance part="ANT2" gate="G$1" x="612.14" y="114.3" rot="R180"/>
 <instance part="SUPPLY121" gate="G$1" x="622.3" y="119.38"/>
 <instance part="SUPPLY122" gate="G$1" x="546.1" y="25.4"/>
-<instance part="SUPPLY123" gate="G$1" x="299.72" y="144.78"/>
+<instance part="SUPPLY123" gate="G$1" x="302.26" y="144.78" rot="R180"/>
 <instance part="SUPPLY124" gate="G$1" x="502.92" y="106.68"/>
 <instance part="L1" gate="L" x="347.98" y="38.1" rot="R90"/>
 <instance part="USB_IN" gate="G$1" x="350.52" y="363.22" rot="MR0"/>
@@ -28189,7 +28189,7 @@ http://www.ti.com&lt;p&gt;
 </segment>
 <segment>
 <pinref part="IC4" gate=".DIF" pin="CS"/>
-<wire x1="309.88" y1="142.24" x2="299.72" y2="147.32" width="0.2032" layer="91"/>
+<wire x1="309.88" y1="142.24" x2="302.26" y2="142.24" width="0.2032" layer="91"/>
 <pinref part="SUPPLY123" gate="G$1" pin="DGND"/>
 </segment>
 <segment>
