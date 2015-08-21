@@ -1319,17 +1319,6 @@ Metric Code Size 1608</description>
 <rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
-<package name="R0201">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt; chip&lt;p&gt;
-Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
-<smd name="1" x="-0.255" y="0" dx="0.28" dy="0.43" layer="1"/>
-<smd name="2" x="0.255" y="0" dx="0.28" dy="0.43" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.3" y1="-0.15" x2="-0.15" y2="0.15" layer="51"/>
-<rectangle x1="0.15" y1="-0.15" x2="0.3" y2="0.15" layer="51"/>
-<rectangle x1="-0.15" y1="-0.15" x2="0.15" y2="0.15" layer="21"/>
-</package>
 <package name="0309V">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0309, grid 2.5 mm</description>
@@ -1345,21 +1334,21 @@ type 0309, grid 2.5 mm</description>
 <rectangle x1="-0.635" y1="-0.3048" x2="-0.3302" y2="0.3048" layer="51"/>
 <rectangle x1="-0.3302" y1="-0.3048" x2="0.254" y2="0.3048" layer="21"/>
 </package>
-<package name="R0402">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
-<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<package name="R0805">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="-0.41" y1="-0.635" x2="0.41" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
+<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<text x="-0.635" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
+<rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
 </package>
 <package name="0309_12">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
@@ -5033,9 +5022,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="75.7812" y="81.9212" size="0.8128" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="80.33" y="86.675" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="PWR" library="rcl" package="R0402" value="" x="35.5875" y="72.4125" smashed="yes" rot="MR270">
-<attribute name="NAME" x="36.1725" y="71.2025" size="0.6096" layer="26" rot="MR90"/>
-<attribute name="VALUE" x="37.4925" y="73.0475" size="1.27" layer="28" rot="MR270"/>
+<element name="PWR" library="rcl" package="R0805" value="" x="37.3375" y="66.7875" smashed="yes" rot="MR270">
+<attribute name="NAME" x="37.9225" y="65.5775" size="0.6096" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="39.2425" y="67.4225" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="S1" library="SparkFun-Electromechanical" package="TACTILE-PTH" value="" x="67.25" y="3.75"/>
 <element name="BAT1" library="SparkFun-Electromechanical" package="BATTCON_12MM" value="" x="63.375" y="30.625" rot="MR270">
@@ -5080,13 +5069,13 @@ design rules under a new name.</description>
 <attribute name="NAME" x="71.105" y="93.9025" size="0.8128" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="69.46" y="98.0975" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
-<element name="JRX" library="rcl" package="R0201" value="0" x="85.125" y="27.125" smashed="yes" rot="R90">
-<attribute name="NAME" x="84.74" y="25.99" size="0.8128" layer="25" rot="R90"/>
-<attribute name="VALUE" x="87.03" y="26.49" size="1.27" layer="27" rot="R90"/>
+<element name="JRX" library="rcl" package="R0603" value="0" x="87.25" y="23.375" smashed="yes" rot="R180">
+<attribute name="NAME" x="88.385" y="22.99" size="0.8128" layer="25" rot="R180"/>
+<attribute name="VALUE" x="87.885" y="25.28" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="JTX" library="rcl" package="R0201" value="0" x="86.125" y="27.125" smashed="yes" rot="R90">
-<attribute name="NAME" x="87.365" y="25.99" size="0.8128" layer="25" rot="R90"/>
-<attribute name="VALUE" x="88.03" y="26.49" size="1.27" layer="27" rot="R90"/>
+<element name="JTX" library="rcl" package="R0603" value="0" x="87.5" y="26.375" smashed="yes" rot="R180">
+<attribute name="NAME" x="88.635" y="27.615" size="0.8128" layer="25" rot="R180"/>
+<attribute name="VALUE" x="88.135" y="28.28" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="ANT1" library="SparkFun" package="U.FL" value="U.FL" x="56.125" y="103.5" smashed="yes" rot="R270"/>
 <element name="SIMHOLDER" library="bontor" package="SIMHOLDER-PUSHPUSH" value="SIM_HOLDER" x="31" y="94.875" smashed="yes">
@@ -6358,7 +6347,6 @@ design rules under a new name.</description>
 <wire x1="44.8875" y1="97.7" x2="43.2125" y2="99.375" width="1.4224" layer="1"/>
 <wire x1="43.2125" y1="99.375" x2="41.825" y2="99.375" width="1.4224" layer="1"/>
 <contactref element="U$17" pad="VCC"/>
-<wire x1="35.5875" y1="73.0625" x2="35.5375" y2="73.1125" width="0.6096" layer="16"/>
 <wire x1="37.3125" y1="73.55" x2="35.675" y2="73.55" width="1.016" layer="16"/>
 <wire x1="31.9" y1="76.2" x2="27" y2="76.2" width="1.27" layer="1"/>
 <wire x1="48.5" y1="46.75" x2="47.975" y2="46.75" width="0.6096" layer="1"/>
@@ -6504,6 +6492,9 @@ design rules under a new name.</description>
 <wire x1="96.32" y1="39.5" x2="94.75" y2="39.5" width="0.6096" layer="1"/>
 <via x="94.75" y="39.5" extent="1-16" drill="0.4"/>
 <wire x1="94.75" y1="39.5" x2="94.625" y2="39.5" width="0.6096" layer="16"/>
+<wire x1="37.3375" y1="67.7375" x2="35.5" y2="69.575" width="1.4224" layer="16"/>
+<wire x1="35.5" y1="69.575" x2="35.5" y2="73.375" width="1.4224" layer="16"/>
+<wire x1="35.5" y1="73.375" x2="35.675" y2="73.55" width="1.4224" layer="16"/>
 </signal>
 <signal name="SWD_NRST">
 <contactref element="STMF401" pad="7"/>
@@ -7791,19 +7782,21 @@ design rules under a new name.</description>
 <contactref element="ESP_EXT" pad="3"/>
 <wire x1="86.395" y1="2.375" x2="86.6" y2="2.58" width="0.4064" layer="1"/>
 <wire x1="86.6" y1="2.58" x2="86.6" y2="6" width="0.4064" layer="1"/>
-<wire x1="85.125" y1="26.87" x2="89.75" y2="22.245" width="0.3048" layer="1"/>
 <wire x1="89.75" y1="22.245" x2="89.75" y2="10" width="0.3048" layer="1"/>
+<wire x1="89.75" y1="22.245" x2="88.62" y2="23.375" width="0.3048" layer="1"/>
+<wire x1="88.62" y1="23.375" x2="88.1" y2="23.375" width="0.3048" layer="1"/>
 </signal>
 <signal name="ESP_TX">
 <contactref element="ESP" pad="TXD"/>
 <wire x1="88.6" y1="6" x2="90.625" y2="8.025" width="0.3048" layer="1"/>
-<wire x1="90.625" y1="22.75" x2="90.625" y2="8.025" width="0.3048" layer="1"/>
+<wire x1="90.625" y1="22.875" x2="90.625" y2="8.025" width="0.3048" layer="1"/>
 <contactref element="JTX" pad="1"/>
-<wire x1="90.625" y1="22.75" x2="86.505" y2="26.87" width="0.3048" layer="1"/>
-<wire x1="86.505" y1="26.87" x2="86.125" y2="26.87" width="0.3048" layer="1"/>
 <contactref element="ESP_EXT" pad="4"/>
 <wire x1="88.935" y1="2.375" x2="88.6" y2="2.71" width="0.4064" layer="1"/>
 <wire x1="88.6" y1="2.71" x2="88.6" y2="6" width="0.4064" layer="1"/>
+<wire x1="90.625" y1="22.875" x2="88.375" y2="25.125" width="0.3048" layer="1"/>
+<wire x1="88.375" y1="25.125" x2="88.375" y2="26.35" width="0.3048" layer="1"/>
+<wire x1="88.375" y1="26.35" x2="88.35" y2="26.375" width="0.3048" layer="1"/>
 </signal>
 <signal name="ESP_GPIO0">
 <contactref element="ESP-GPIO0" pad="2"/>
@@ -8247,12 +8240,11 @@ design rules under a new name.</description>
 <signal name="DC_VOUT">
 <contactref element="PWR" pad="2"/>
 <contactref element="DCDC" pad="VOUT"/>
-<wire x1="35.5875" y1="71.7625" x2="35.5875" y2="71.0125" width="0.6096" layer="16"/>
-<wire x1="35.5875" y1="71.0125" x2="35.5875" y2="70.2375" width="1.4224" layer="16"/>
-<wire x1="35.5875" y1="70.2375" x2="37.025" y2="68.8" width="1.4224" layer="16"/>
-<via x="37.025" y="68.8" extent="1-16" drill="0.4"/>
-<wire x1="37.025" y1="68.8" x2="37.025" y2="68.775" width="1.4224" layer="1"/>
-<wire x1="37.025" y1="68.775" x2="36.95" y2="66.125" width="1.4224" layer="1"/>
+<via x="38.525" y="65.675" extent="1-16" drill="0.4"/>
+<wire x1="38.525" y1="65.675" x2="37.025" y2="66.9" width="1.4224" layer="1"/>
+<wire x1="37.025" y1="66.9" x2="36.95" y2="66.125" width="1.4224" layer="1"/>
+<wire x1="37.3375" y1="65.8375" x2="37.5" y2="65.675" width="1.4224" layer="16"/>
+<wire x1="37.5" y1="65.675" x2="38.525" y2="65.675" width="1.4224" layer="16"/>
 </signal>
 <signal name="VBAT">
 <contactref element="STMF401" pad="1"/>
@@ -8586,17 +8578,18 @@ design rules under a new name.</description>
 <signal name="N$71">
 <contactref element="STMF401" pad="16"/>
 <contactref element="JRX" pad="2"/>
-<wire x1="85.125" y1="27.38" x2="85.125" y2="35" width="0.3048" layer="1"/>
 <wire x1="83.9884" y1="36.1366" x2="83.2592" y2="36.1366" width="0.3048" layer="1"/>
 <wire x1="83.9884" y1="36.1366" x2="85.125" y2="35" width="0.3048" layer="1"/>
+<wire x1="86.4" y1="23.375" x2="85.125" y2="24.65" width="0.3048" layer="1"/>
+<wire x1="85.125" y1="24.65" x2="85.125" y2="35" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$72">
 <contactref element="STMF401" pad="17"/>
 <contactref element="JTX" pad="2"/>
 <wire x1="85.1134" y1="37.9908" x2="85.1134" y2="36.3866" width="0.3048" layer="1"/>
 <wire x1="85.1134" y1="36.3866" x2="85.875" y2="35.625" width="0.3048" layer="1"/>
-<wire x1="85.875" y1="35.625" x2="85.875" y2="27.63" width="0.3048" layer="1"/>
-<wire x1="85.875" y1="27.63" x2="86.125" y2="27.38" width="0.3048" layer="1"/>
+<wire x1="86.65" y1="26.375" x2="85.875" y2="27.15" width="0.3048" layer="1"/>
+<wire x1="85.875" y1="27.15" x2="85.875" y2="35.625" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$73">
 <contactref element="TV16-3" pad="IA"/>
